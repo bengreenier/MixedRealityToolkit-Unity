@@ -26,6 +26,8 @@ namespace Tests
 
         private class EmptyMockPeer : IPeer
         {
+            // Toggle "Event is never used" warnings off for these test events
+#pragma warning disable 67
             public virtual event Action LocalDataChannelReady;
             public virtual event Action<string> DataFromDataChannelReady;
             public virtual event Action<string> FailureMessage;
@@ -34,7 +36,7 @@ namespace Tests
             public virtual event I420FrameReadyHandler RemoteI420FrameReady;
             public virtual event Action<string, string> LocalSdpReadytoSend;
             public virtual event Action<string, int, string> IceCandiateReadytoSend;
-
+#pragma warning restore 67
             public virtual void AddDataChannel()
             {
                 throw new NotImplementedException();
@@ -85,7 +87,7 @@ namespace Tests
                 throw new NotImplementedException();
             }
         }
-        
+
         /// <summary>
         /// Allocate a test gameobject with a <see cref="WebrtcPeerEvents"/> component attached
         /// </summary>
