@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kind="class" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::WebrtcErrorEvent</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffef" prot="public" static="no">
+        <name>IceType</name>
+        <enumvalue id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Indicates there is no Ice information </para>          </briefdescription>
+          <detaileddescription>
+<para>Under normal use, this should not be used </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa27e9c0d7972e999a5bbe094c4cede584" prot="public">
+          <name>Stun</name>
+          <briefdescription>
+<para>Indicates Ice information is of type STUN </para>          </briefdescription>
+          <detaileddescription>
+<para><ulink url="https://en.wikipedia.org/wiki/STUN">https://en.wikipedia.org/wiki/STUN</ulink> </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa6b12be2513bab07567150f54467bc568" prot="public">
+          <name>Turn</name>
+          <briefdescription>
+<para>Indicates Ice information is of type TURN </para>          </briefdescription>
+          <detaileddescription>
+<para><ulink url="https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT">https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT</ulink> </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Different Ice server types </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="28" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="27" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a3842201b1511a69278ef3ba3626f6b91" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" kindref="compound">IPeer</ref></type>
+        <definition>IPeer Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.Peer</definition>
+        <argsstring></argsstring>
+        <name>Peer</name>
+        <briefdescription>
+<para>Retrieves the underlying peer </para>        </briefdescription>
+        <detaileddescription>
+<para>If <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a138074ba7f9bdfbd96d102f610d859f5" kindref="member">OnInitialized</ref> has not fired, this will be <computeroutput>null</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="97" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ae65b421e4c95765b7cc8eb2b09e94e85" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.AutoInitialize</definition>
+        <argsstring></argsstring>
+        <name>AutoInitialize</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Flag to initialize <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref> on Start </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="107" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a0c13e75bd0442c977d330e8d7f5385d8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.AutoLogErrors</definition>
+        <argsstring></argsstring>
+        <name>AutoLogErrors</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Flag to log all errors to the Unity console automatically </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="113" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a5d861ed669b6d75a94cb464fde222d24" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" kindref="compound">ConfigurableIceServer</ref> &gt;</type>
+        <definition>List&lt;ConfigurableIceServer&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.IceServers</definition>
+        <argsstring></argsstring>
+        <name>IceServers</name>
+        <initializer>= new List&lt;<ref refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" kindref="compound">ConfigurableIceServer</ref>&gt;()
+        {
+            new <ref refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" kindref="compound">ConfigurableIceServer</ref>()
+            {
+                Type = <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa27e9c0d7972e999a5bbe094c4cede584" kindref="member">IceType.Stun</ref>,
+                Uri = &quot;stun.l.google.com:19302&quot;
+            }
+        }</initializer>
+        <briefdescription>
+<para>Set of ice servers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="119" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a77c2f5e66b0b9656cfadd1094a2f25cb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.IceUsername</definition>
+        <argsstring></argsstring>
+        <name>IceUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="129" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8a7132e2d2a7d32af7d086fe265988fa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.IceCredential</definition>
+        <argsstring></argsstring>
+        <name>IceCredential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="132" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a138074ba7f9bdfbd96d102f610d859f5" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.OnInitialized</definition>
+        <argsstring></argsstring>
+        <name>OnInitialized</name>
+        <initializer>= new UnityEvent()</initializer>
+        <briefdescription>
+<para>Event that occurs when <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref> is fully initialized </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="138" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a408df4ff8e66d433c29b3d391c6f32a2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event" kindref="compound">WebrtcErrorEvent</ref></type>
+        <definition>WebrtcErrorEvent Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.OnError</definition>
+        <argsstring></argsstring>
+        <name>OnError</name>
+        <initializer>= new <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event" kindref="compound">WebrtcErrorEvent</ref>()</initializer>
+        <briefdescription>
+<para>Event that occurs when a <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref> error occurs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="144" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ad5e9b0873e4040188f3002be54b88fc9" prot="private" static="no" mutable="no">
+        <type>Queue&lt; Action &gt;</type>
+        <definition>Queue&lt;Action&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.MainThreadWorkloads</definition>
+        <argsstring></argsstring>
+        <name>MainThreadWorkloads</name>
+        <initializer>= new Queue&lt;Action&gt;()</initializer>
+        <briefdescription>
+<para>Internal queue used to marshal work back to the main unity thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="149" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeeb7e7f30661541e64004e696ff9ef82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Unity Engine Start() hook </para>        </briefdescription>
+        <detaileddescription>
+<para><ulink url="https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html">https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="157" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="157" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a73b0f8bab3c83e045e84d05e392dcb77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Unity Engine Update() hook </para>        </briefdescription>
+        <detaileddescription>
+<para><ulink url="https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html">https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="180" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="180" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a2e01c29f078899bac5243ef91ebe832f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+<para>Unity Engine OnDestroy() hook </para>        </briefdescription>
+        <detaileddescription>
+<para><ulink url="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnDestroy.html">https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnDestroy.html</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="199" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="199" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a22ea9b26bafde5db5543cfbe95d9fec8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.RequestAccessAndInitAsync</definition>
+        <argsstring>()</argsstring>
+        <name>RequestAccessAndInitAsync</name>
+        <briefdescription>
+<para>Internal helper to ensure device access and continue initialization </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="280" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="280" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aa789ce570deb2c4c2327ac6c5d00f81b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.InitializePlugin</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePlugin</name>
+        <briefdescription>
+<para>Internal handler to actually initialize the underlying library wrapper </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="332" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="332" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a551c92d3eff75e3abfb4f885a2a5d6d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.OnError_Listener</definition>
+        <argsstring>(string error)</argsstring>
+        <name>OnError_Listener</name>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Internal handler for on-error, if <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a0c13e75bd0442c977d330e8d7f5385d8" kindref="member">AutoLogErrors</ref> is <computeroutput>true</computeroutput> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error message</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="363" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="363" bodyend="367"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a6c73169c01f79e72ca15b2ab8119d84b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.InitializeAsync</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeAsync</name>
+        <briefdescription>
+<para>Initialize the underlying <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref> libraries </para>        </briefdescription>
+        <detaileddescription>
+<para>This function is asynchronous, to monitor it&apos;s status bind a handler to OnInitialized and OnError </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="211" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="211" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeec528bf52a68384421e62211bbfe3b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.Uninitialize</definition>
+        <argsstring>()</argsstring>
+        <name>Uninitialize</name>
+        <briefdescription>
+<para>Uninitialize the underlying webrtc libraries, effectively cleaning up the allocated peer </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a3842201b1511a69278ef3ba3626f6b91" kindref="member">Peer</ref> will be <computeroutput>null</computeroutput> afterward </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="268" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="268" bodyend="275"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>High-level wrapper for Unity <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref> functionality </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>UnityEvent&lt; string &gt;</label>
+      </node>
+      <node id="99">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>OnError</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.WebrtcErrorEvent</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Webrtc.cs" line="23" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="22" bodyend="368"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ae65b421e4c95765b7cc8eb2b09e94e85" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>AutoInitialize</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a0c13e75bd0442c977d330e8d7f5385d8" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>AutoLogErrors</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8a7132e2d2a7d32af7d086fe265988fa" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>IceCredential</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a5d861ed669b6d75a94cb464fde222d24" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>IceServers</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffef" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>IceType</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a77c2f5e66b0b9656cfadd1094a2f25cb" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>IceUsername</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a6c73169c01f79e72ca15b2ab8119d84b" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>InitializeAsync</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aa789ce570deb2c4c2327ac6c5d00f81b" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>InitializePlugin</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ad5e9b0873e4040188f3002be54b88fc9" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>MainThreadWorkloads</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a2e01c29f078899bac5243ef91ebe832f" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>OnDestroy</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a408df4ff8e66d433c29b3d391c6f32a2" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>OnError</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a551c92d3eff75e3abfb4f885a2a5d6d8" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>OnError_Listener</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a138074ba7f9bdfbd96d102f610d859f5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>OnInitialized</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a3842201b1511a69278ef3ba3626f6b91" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>Peer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a22ea9b26bafde5db5543cfbe95d9fec8" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>RequestAccessAndInitAsync</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeeb7e7f30661541e64004e696ff9ef82" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>Start</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeec528bf52a68384421e62211bbfe3b6" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>Uninitialize</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a73b0f8bab3c83e045e84d05e392dcb77" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

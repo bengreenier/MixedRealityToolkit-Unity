@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" kind="interface" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</compoundname>
+    <basecompoundref refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl" prot="public" virt="non-virtual">Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeerImpl</basecompoundref>
+    <derivedcompoundref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer" prot="public" virt="non-virtual">Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1ac20575e9b0ee48eac6e30d360ac4ec96" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.LocalDataChannelReady</definition>
+        <argsstring></argsstring>
+        <name>LocalDataChannelReady</name>
+        <briefdescription>
+<para>Event that occurs when the local data channel is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="80" column="1" bodyfile="Scripts/IPeer.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a979e4f9cba7e60da453cc91d40c89891" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string &gt;</type>
+        <definition>Action&lt;string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.DataFromDataChannelReady</definition>
+        <argsstring></argsstring>
+        <name>DataFromDataChannelReady</name>
+        <briefdescription>
+<para>Event that occurs when data is available from the remote, sent via the data channel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="85" column="1" bodyfile="Scripts/IPeer.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa7b1153838a558aeb793bb7b5168b1d9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string &gt;</type>
+        <definition>Action&lt;string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.FailureMessage</definition>
+        <argsstring></argsstring>
+        <name>FailureMessage</name>
+        <briefdescription>
+<para>Event that occurs when a native failure occurs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="90" column="1" bodyfile="Scripts/IPeer.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a5138ebcfda780502c27a8a8be1526ab2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>AudioBusReadyHandler</type>
+        <definition>AudioBusReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.AudioBusReady</definition>
+        <argsstring></argsstring>
+        <name>AudioBusReady</name>
+        <briefdescription>
+<para>Event that occurs when the audio bus is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="95" column="1" bodyfile="Scripts/IPeer.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a2a8c31569b9389eb109c579ac1129abd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>I420FrameReadyHandler</type>
+        <definition>I420FrameReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.LocalI420FrameReady</definition>
+        <argsstring></argsstring>
+        <name>LocalI420FrameReady</name>
+        <briefdescription>
+<para>Event that occurs when a local frame is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="100" column="1" bodyfile="Scripts/IPeer.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa3d93a97ee64db872f651634736727db" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>I420FrameReadyHandler</type>
+        <definition>I420FrameReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.RemoteI420FrameReady</definition>
+        <argsstring></argsstring>
+        <name>RemoteI420FrameReady</name>
+        <briefdescription>
+<para>Event that occurs when a remote frame is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="105" column="1" bodyfile="Scripts/IPeer.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a181f6c4b17b5634f4fcea25ec504d794" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string, string &gt;</type>
+        <definition>Action&lt;string, string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.LocalSdpReadytoSend</definition>
+        <argsstring></argsstring>
+        <name>LocalSdpReadytoSend</name>
+        <briefdescription>
+<para>Event that occurs when a local SDP is ready to transmit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="110" column="1" bodyfile="Scripts/IPeer.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a160107e44db292d56ab07cb68de8f749" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string, int, string &gt;</type>
+        <definition>Action&lt;string, int, string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer.IceCandiateReadytoSend</definition>
+        <argsstring></argsstring>
+        <name>IceCandiateReadytoSend</name>
+        <briefdescription>
+<para>Event that occurs when a local ice candidate is ready to transmit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/IPeer.cs" line="115" column="1" bodyfile="Scripts/IPeer.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IPeerImpl</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IPeerImpl</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl"/>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/IPeer.cs" line="76" column="1" bodyfile="Scripts/IPeer.cs" bodystart="75" bodyend="116"/>
+    <listofallmembers>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7d57a4a786a2f4e449b9ca7b36799d06" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>AddDataChannel</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1ad8a356dc6a22960049530d5f6a77b237" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>AddIceCandidate</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a60333a73ec19863c1c3d2e2c752af244" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>AddStream</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a5138ebcfda780502c27a8a8be1526ab2" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>AudioBusReady</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a15e764d95b6a3a96255dd09206bb1165" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>ClosePeerConnection</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4ea353f11385d3dc1cc33662d7069825" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>CreateAnswer</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4dbdbe11cf313b3bd8f327358d2c67eb" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>CreateOffer</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a979e4f9cba7e60da453cc91d40c89891" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>DataFromDataChannelReady</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa7b1153838a558aeb793bb7b5168b1d9" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>FailureMessage</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7e1b14db7a1665fbd118df802703b7a4" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>GetUniqueId</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a160107e44db292d56ab07cb68de8f749" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>IceCandiateReadytoSend</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1ac20575e9b0ee48eac6e30d360ac4ec96" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>LocalDataChannelReady</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a2a8c31569b9389eb109c579ac1129abd" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>LocalI420FrameReady</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a181f6c4b17b5634f4fcea25ec504d794" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>LocalSdpReadytoSend</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa3d93a97ee64db872f651634736727db" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>RemoteI420FrameReady</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1aecc919519dccb5e2cfa20b68b1ecc73c" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>SendDataViaDataChannel</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7dffec1fec6045243444b98ef3f6262c" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>SetAudioControl</name></member>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a3682e5c3d1a51595ab56bfc3e2b80155" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</scope><name>SetRemoteDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

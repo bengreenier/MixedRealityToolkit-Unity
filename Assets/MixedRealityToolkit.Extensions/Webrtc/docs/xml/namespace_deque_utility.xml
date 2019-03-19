@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_deque_utility" kind="namespace" language="C#">
+    <compoundname>DequeUtility</compoundname>
+    <innerclass refid="class_deque_utility_1_1_utility" prot="package">DequeUtility::Utility</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Marshalling/Utility.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

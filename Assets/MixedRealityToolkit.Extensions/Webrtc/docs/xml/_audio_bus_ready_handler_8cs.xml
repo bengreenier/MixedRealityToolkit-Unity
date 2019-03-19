@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_audio_bus_ready_handler_8cs" kind="file" language="C#">
+    <compoundname>AudioBusReadyHandler.cs</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Delegates</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_microsoft" kindref="compound">Microsoft</ref>.MixedReality.Toolkit.Extensions.<ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kindref="compound">Webrtc</ref>.Delegates</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates_1aeb47976f0fd4d4a9dff12c8e9ffce6c6" kindref="member">AudioBusReadyHandler</ref>(IntPtr<sp/>data,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bitsPerSample,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numberOfChannels,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numberOfFrames);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Scripts/Delegates/AudioBusReadyHandler.cs"/>
+  </compounddef>
+</doxygen>

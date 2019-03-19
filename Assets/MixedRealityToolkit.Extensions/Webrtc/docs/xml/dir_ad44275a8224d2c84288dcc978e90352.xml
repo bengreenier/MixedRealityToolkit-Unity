@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_ad44275a8224d2c84288dcc978e90352" kind="dir">
+    <compoundname>Scripts/Marshalling</compoundname>
+    <innerfile refid="_deque_8cs">Deque.cs</innerfile>
+    <innerfile refid="_frame_packet_8cs">FramePacket.cs</innerfile>
+    <innerfile refid="_frame_packet_pool_8cs">FramePacketPool.cs</innerfile>
+    <innerfile refid="_frame_queue_8cs">FrameQueue.cs</innerfile>
+    <innerfile refid="_frame_queue_stat_8cs">FrameQueueStat.cs</innerfile>
+    <innerfile refid="_i_readonly_frame_queue_stat_8cs">IReadonlyFrameQueueStat.cs</innerfile>
+    <innerfile refid="_native_peer_8cs">NativePeer.cs</innerfile>
+    <innerfile refid="_utility_8cs">Utility.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Marshalling/"/>
+  </compounddef>
+</doxygen>

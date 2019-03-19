@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" kind="struct" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a9ab322b93c4e3481666698d15613abc5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffef" kindref="member">IceType</ref></type>
+        <definition>IceType Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.ConfigurableIceServer.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>The type of the server </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="63" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a27eec40a8f49673d264235d84c2caf14" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.ConfigurableIceServer.Uri</definition>
+        <argsstring></argsstring>
+        <name>Uri</name>
+        <briefdescription>
+<para>The unqualified uri of the server </para>        </briefdescription>
+        <detaileddescription>
+<para>You should not prefix this with &quot;stun:&quot; or &quot;turn:&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="71" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a931893cb2c83799ed7d4db88247b09bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.ConfigurableIceServer.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Convert the server to the representation the underlying libraries use </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>stringified server information</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Webrtc.cs" line="77" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents an Ice server in a simple way that allows configuration from the unity inspector </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Webrtc.cs" line="59" column="1" bodyfile="Scripts/Webrtc.cs" bodystart="58" bodyend="81"/>
+    <listofallmembers>
+      <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a931893cb2c83799ed7d4db88247b09bc" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</scope><name>ToString</name></member>
+      <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a9ab322b93c4e3481666698d15613abc5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</scope><name>Type</name></member>
+      <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a27eec40a8f49673d264235d84c2caf14" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</scope><name>Uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks" kind="class" language="C#" prot="private">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a1c1caa007efddcc7b4b94c535f8ad6e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.LocalDataChannelReady_Global</definition>
+        <argsstring>(IntPtr userData)</argsstring>
+        <name>LocalDataChannelReady_Global</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="165" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="165" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac0e69c1d36e346984303607a4d9f93bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.DataFromDataChannelReady_Global</definition>
+        <argsstring>(string data, IntPtr userData)</argsstring>
+        <name>DataFromDataChannelReady_Global</name>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="177" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="177" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aa96f5a0da51a131921e68ef5e8e7115f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.FailureMessage_Global</definition>
+        <argsstring>(string msg, IntPtr userData)</argsstring>
+        <name>FailureMessage_Global</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="189" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="189" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac1a8650d57585e1ae45ecc80dffe878e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.AudioBusReady_Global</definition>
+        <argsstring>(IntPtr data, int bitsPerSample, int sampleRate, int numberOfChannels, int numberOfFrames, IntPtr userData)</argsstring>
+        <name>AudioBusReady_Global</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bitsPerSample</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numberOfChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numberOfFrames</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="201" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="201" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a62214b8c8761a2e57bac742bae31d4c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.LocalI420FrameReady_Global</definition>
+        <argsstring>(IntPtr dataY, IntPtr dataU, IntPtr dataV, IntPtr dataA, int strideY, int strideU, int strideV, int strideA, uint width, uint height, IntPtr userData)</argsstring>
+        <name>LocalI420FrameReady_Global</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataY</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataU</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataV</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideU</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideA</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="222" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="222" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aace5b8d5efb7619f7145901a1ae12aa1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.RemoteI420FrameReady_Global</definition>
+        <argsstring>(IntPtr dataY, IntPtr dataU, IntPtr dataV, IntPtr dataA, int strideY, int strideU, int strideV, int strideA, uint width, uint height, IntPtr userData)</argsstring>
+        <name>RemoteI420FrameReady_Global</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataY</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataU</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataV</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>dataA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideU</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideV</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>strideA</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="253" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="253" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a519cc53fd86f4c76223c4f258d737730" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.LocalSdpReadytoSend_Global</definition>
+        <argsstring>(string type, string sdp, IntPtr userData)</argsstring>
+        <name>LocalSdpReadytoSend_Global</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sdp</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="284" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="284" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1acb65d97a82c55186d47407ce73caee42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativeCallbacks.IceCandiateReadytoSend_Global</definition>
+        <argsstring>(string sdp, int sdpMlineIndex, string sdpMid, IntPtr userData)</argsstring>
+        <name>IceCandiateReadytoSend_Global</name>
+        <param>
+          <type>string</type>
+          <declname>sdp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sdpMlineIndex</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sdpMid</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>userData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="299" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="299" bodyend="313"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal static callback definitions to facilitate marshalling callbacks back from the native-library </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Marshalling/NativePeer.cs" line="163" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="162" bodyend="314"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac1a8650d57585e1ae45ecc80dffe878e" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>AudioBusReady_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac0e69c1d36e346984303607a4d9f93bd" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>DataFromDataChannelReady_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aa96f5a0da51a131921e68ef5e8e7115f" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>FailureMessage_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1acb65d97a82c55186d47407ce73caee42" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>IceCandiateReadytoSend_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a1c1caa007efddcc7b4b94c535f8ad6e7" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>LocalDataChannelReady_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a62214b8c8761a2e57bac742bae31d4c9" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>LocalI420FrameReady_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a519cc53fd86f4c76223c4f258d737730" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>LocalSdpReadytoSend_Global</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aace5b8d5efb7619f7145901a1ae12aa1" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</scope><name>RemoteI420FrameReady_Global</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

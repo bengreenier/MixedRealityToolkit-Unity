@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server" kind="struct"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::ConfigurableIceServer</name>
+    <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a9ab322b93c4e3481666698d15613abc5" kind="variable"><name>Type</name></member>
+    <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a27eec40a8f49673d264235d84c2caf14" kind="variable"><name>Uri</name></member>
+    <member refid="struct_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_configurable_ice_server_1a931893cb2c83799ed7d4db88247b09bc" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_system_1_1_collections_1_1_generic_1_1_deque" kind="class"><name>System::Collections::Generic::Deque</name>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aff2d1162726376a032fb9a534a049c9e" kind="variable"><name>defaultCapacity</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a462ee49d30cb5ae2965f65d31c41b01f" kind="variable"><name>startOffset</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a8a8f72c5617bb30a71e2fc9d16153459" kind="variable"><name>buffer</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a66da43d0b6e938a33321435fe0d37400" kind="variable"><name>capacityClosestPowerOfTwoMinusOne</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aed22bb0eecad95774e72a2183f99e08f" kind="property"><name>Capacity</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a11c42446ea633dbcf79ef08300331bb7" kind="property"><name>IsFull</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a70bbaf601af1af6b1325450ba29d9ddf" kind="property"><name>IsEmpty</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b8afcf2baea1dd0cc59b1b33fbda55c" kind="property"><name>IsReadOnly</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a6327caf4789883bcfd697842f51b896e" kind="property"><name>Count</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a459278b4ed9c2878269ecb05fb2fd4b0" kind="property"><name>this[int index]</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a53687522b3603f342996777daecfe600" kind="function"><name>Deque</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a51e556b3d7a65475d64f23c6d1245047" kind="function"><name>Deque</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a7bd6f2bb4745470e1c327aa08eb330af" kind="function"><name>Deque</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a404a8d0f107c7c92bac15106cc6d17e1" kind="function"><name>GetEnumerator</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aeda32c4a9eb99629627a902e1e0bba6f" kind="function"><name>Add</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0312c1a1cf13f4c379c8957f8d56b401" kind="function"><name>Clear</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1acbdde8ff31afb6756430c1836761cc9f" kind="function"><name>Contains</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0947787d33b03dd05ea378ecc450e44f" kind="function"><name>CopyTo</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aed9f95d69dc746be6a78e51f6d9a12d6" kind="function"><name>Remove</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0040f2c10cf74e050bd4b8e7d197ec51" kind="function"><name>Insert</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a1a757181e2a5980b40b04ad308c32f8a" kind="function"><name>IndexOf</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a43a520a9816c7471ad717fe410c8b8d9" kind="function"><name>RemoveAt</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1acd52833f83146fd1892086be0d8e0ba8" kind="function"><name>AddFront</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2e1901fd93f096e14ed33e5cbe3b66e" kind="function"><name>AddBack</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ab742e93a18cff9c54ca93de0bf632eea" kind="function"><name>RemoveFront</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a875755cdbca8184a2449965b164aa4a8" kind="function"><name>RemoveBack</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a245a33436bd8ade9f02656ba777b78e8" kind="function"><name>AddRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aa8f7a8574f51606eec901d20ae339783" kind="function"><name>AddFrontRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ace2b4fdfff209415dcc1b7bee86fcb49" kind="function"><name>AddFrontRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1afff1f6270591cf9ae49998bbc1840802" kind="function"><name>AddBackRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a4d1d956e60138c1885473971a89e4416" kind="function"><name>AddBackRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a275b7951a82869b6f283b924b8d61a36" kind="function"><name>InsertRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a2fae5f3910ac37432a1a487e6bdf2d05" kind="function"><name>InsertRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ab5f46e197f15d781776cca7aaf94ecc6" kind="function"><name>RemoveRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1adb909bae9eac28a548b30cbc041c467f" kind="function"><name>Get</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1adaf92ba1a427d0351173444d4d1d9463" kind="function"><name>Set</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a8d369e7c0f11e5271ce97b2d7b6758d7" kind="function"><name>ensureCapacityFor</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b127f4d3a631a6cb6ee9b1c1afb230e" kind="function"><name>toBufferIndex</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a6032b406ba7615e9a68e5a192e852743" kind="function"><name>checkIndexOutOfRange</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2d7a7c9d07ca86948c09028e096f5de" kind="function"><name>shiftStartOffset</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad3839fab70c2acf17c277d9322e8232a" kind="function"><name>preShiftStartOffset</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5f21c824b26b0057a7c8766e01cc78c1" kind="function"><name>postShiftStartOffset</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a53a38e3173f2729f6a7b3b506397b545" kind="function"><name>GetEnumerator</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a10c102a39c9651ced67d74beb3ecda5e" kind="function"><name>incrementCount</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a062b751fbdc49b43ed2c55bb37fd1cf8" kind="function"><name>decrementCount</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a7488ca6ca290d396910269f800a72710" kind="function"><name>ClearBuffer</name></member>
+    <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ac129b26591c7a6d10eb85921452a06fd" kind="function"><name>checkArgumentsOutOfRange</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer" kind="class"><name>Tests::WebrtcPeerEventsTests::EmptyMockPeer</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1af9ecca0450c4805550760f3ca998e3be" kind="event"><name>LocalDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a59aa54e43f831c0a65bd9ecaa017307a" kind="event"><name>DataFromDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1aec0ac6b8a5f991beeceb52f253808985" kind="event"><name>FailureMessage</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a876981d90e029518e82d5d2ea1106de7" kind="event"><name>AudioBusReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a6979591f8cd4c384ceb288096ae04593" kind="event"><name>LocalI420FrameReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a0ad81d0f013364b882ae93c591715df4" kind="event"><name>RemoteI420FrameReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a273637dc7be8f27a62067241ff2d0cd3" kind="event"><name>LocalSdpReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a1097486a8179711a598396937f7fc85e" kind="event"><name>IceCandiateReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a35a56c73fd1beb376a06b7a3b1fee492" kind="function"><name>AddDataChannel</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1ab676047ce348db349d4c6a79e5129c8d" kind="function"><name>AddIceCandidate</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a6fbce5bfd67ef1b9f57ba7fc8cf39684" kind="function"><name>AddStream</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a713b8b4b9e3d6099915469c0aa680831" kind="function"><name>ClosePeerConnection</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1aed37fe7a327b71aa04fb6f016f8a746c" kind="function"><name>CreateAnswer</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1abcba843e5077a176f6d159899bf2d433" kind="function"><name>CreateOffer</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a3457fd01127c83b54dcec687b17e94d1" kind="function"><name>GetUniqueId</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1ad2e4943c788bfe651ef6bbe2c5cefcbb" kind="function"><name>SendDataViaDataChannel</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1ade8debcae7fa73ae4cbf9cff4ba090e9" kind="function"><name>SetAudioControl</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_empty_mock_peer_1a75a0463ba0bd2c2134e8a7212ad716ff" kind="function"><name>SetRemoteDescription</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a81f11687ec5da5edc848b709e016a8c7" kind="variable"><name>width</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a428f3b67cac730a84039f18247dd63f4" kind="variable"><name>height</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1abd46209262f7b3f718d448fbde744fd2" kind="variable"><name>_buffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1afd7521f515bb6c173d3c1a76ac9165ee" kind="property"><name>Buffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ae332d06838b5d1de85cc281625156877" kind="function"><name>FramePacket</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ab60ea3e0bc9b4eb0aad246719496661f" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacketPool</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool_1af3e628a4b9156451520b336805a58d84" kind="variable"><name>pool</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool_1a0534bcdec8200f82447bbc90c75dc8f7" kind="function"><name>GetDataBuffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool_1a5472e920783b91b8eae181ef561041f4" kind="function"><name>GetDataBufferWithContents</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool_1ac72978352cca9d600b79f84eb221d6f2" kind="function"><name>Push</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_pool_1a277fc0c108854ea22f5f2c5d5b928a88" kind="function"><name>GetNewBuffer</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FrameQueue</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a85c40956f79a5f3f747e531026994b6c" kind="property"><name>Count</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1ad908ef41a63bed7ad22ef4c34b02ea44" kind="property"><name>FramePacketPool</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a3e0cf4b91599c52b3c50e63f7f022bfd" kind="property"><name>FrameLoad</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a24464cacab99b0fcf3669775bd7fadeb" kind="property"><name>FramePresent</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a64bd9ded30e2e1a5f45f10cdbb725ff3" kind="property"><name>FrameSkip</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1ae84eaced211ffb02890af6f1f9ede2e7" kind="variable"><name>frameLoad</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1ab44e96a1c9d8c7b13637e4f1ef3fecc2" kind="variable"><name>framePresent</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1abe2c384020c126faac44d1fca9f4678d" kind="variable"><name>frameSkip</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a22588e1c5e56298aa4dc7ca6d14645db" kind="variable"><name>frames</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a17626cb0f13b1b031d8343ed69a4f691" kind="variable"><name>bufferPool</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a118a243edfdffffbaff7884b84727cff" kind="variable"><name>maxQueueCount</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a867657bbdfa9348c29dd91d08d2e8bb1" kind="function"><name>FrameQueue</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a0db5659b57c617e99bd2fb083a403b02" kind="function"><name>Push</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a8abb8945e52e7da7e686cbfe2023da10" kind="function"><name>Pop</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a8b4909d3819b0f0e4661bbb05a992ea2" kind="function"><name>GetDataBufferWithContents</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a4c41b5e5221e9b2568f0b88121ac43da" kind="function"><name>GetDataBufferWithoutContents</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_1a3f3f06bcc009f8e020562b15d5462d34" kind="function"><name>Pool</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FrameQueueStat</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat_1abee9f6a46fcb13a7f45c3a856297be86" kind="property"><name>Value</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat_1a7850787c280236ffb9c579e615db7098" kind="variable"><name>times</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat_1a1ed3ba962dbc2cb2376deb71d946f907" kind="variable"><name>watch</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat_1a29c2e812058fca11b1fb7579ab09f026" kind="function"><name>FrameQueueStat</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat_1a9946e0ec090d82c43b41bb2833de90f5" kind="function"><name>Track</name></member>
+  </compound>
+  <compound refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" kind="interface"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</name>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1ac20575e9b0ee48eac6e30d360ac4ec96" kind="event"><name>LocalDataChannelReady</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a979e4f9cba7e60da453cc91d40c89891" kind="event"><name>DataFromDataChannelReady</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa7b1153838a558aeb793bb7b5168b1d9" kind="event"><name>FailureMessage</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a5138ebcfda780502c27a8a8be1526ab2" kind="event"><name>AudioBusReady</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a2a8c31569b9389eb109c579ac1129abd" kind="event"><name>LocalI420FrameReady</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1aa3d93a97ee64db872f651634736727db" kind="event"><name>RemoteI420FrameReady</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a181f6c4b17b5634f4fcea25ec504d794" kind="event"><name>LocalSdpReadytoSend</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_1a160107e44db292d56ab07cb68de8f749" kind="event"><name>IceCandiateReadytoSend</name></member>
+  </compound>
+  <compound refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl" kind="interface"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeerImpl</name>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a15e764d95b6a3a96255dd09206bb1165" kind="function"><name>ClosePeerConnection</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7e1b14db7a1665fbd118df802703b7a4" kind="function"><name>GetUniqueId</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a60333a73ec19863c1c3d2e2c752af244" kind="function"><name>AddStream</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7d57a4a786a2f4e449b9ca7b36799d06" kind="function"><name>AddDataChannel</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4dbdbe11cf313b3bd8f327358d2c67eb" kind="function"><name>CreateOffer</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4ea353f11385d3dc1cc33662d7069825" kind="function"><name>CreateAnswer</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1aecc919519dccb5e2cfa20b68b1ecc73c" kind="function"><name>SendDataViaDataChannel</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7dffec1fec6045243444b98ef3f6262c" kind="function"><name>SetAudioControl</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a3682e5c3d1a51595ab56bfc3e2b80155" kind="function"><name>SetRemoteDescription</name></member>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1ad8a356dc6a22960049530d5f6a77b237" kind="function"><name>AddIceCandidate</name></member>
+  </compound>
+  <compound refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat" kind="interface"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::IReadonlyFrameQueueStat</name>
+    <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat_1abfe2ed3104901f847e1ecc91ee613f1d" kind="property"><name>Value</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_data_from_data_channel_ready" kind="class"><name>Tests::WebrtcPeerEventsTests::MockPeerWithDataFromDataChannelReady</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_data_from_data_channel_ready_1a3421ed8bb64160b950054b512269e4b3" kind="event"><name>DataFromDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_data_from_data_channel_ready_1aa2965911c9ca80849adfa6da74bd43fe" kind="function"><name>Fire</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_failure_message" kind="class"><name>Tests::WebrtcPeerEventsTests::MockPeerWithFailureMessage</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_failure_message_1a4765832d4e78f42f32b2e29386f10fc7" kind="event"><name>FailureMessage</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_failure_message_1a04bdb25cec917c97cd2e4851ffb25058" kind="function"><name>Fire</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_ice_candiate_readyto_send" kind="class"><name>Tests::WebrtcPeerEventsTests::MockPeerWithIceCandiateReadytoSend</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_ice_candiate_readyto_send_1a76e4b1f4f498b1e0bf9b357a7cc6f114" kind="event"><name>IceCandiateReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_ice_candiate_readyto_send_1a21d3d63429e300a6d3f40ddbee138e78" kind="function"><name>Fire</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_data_channel_ready" kind="class"><name>Tests::WebrtcPeerEventsTests::MockPeerWithLocalDataChannelReady</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_data_channel_ready_1a9d2c4bcdc5479d88384752efc3473ad9" kind="event"><name>LocalDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_data_channel_ready_1a3f221f14a0c570205c1590773c827e73" kind="function"><name>Fire</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_sdp_readyto_send" kind="class"><name>Tests::WebrtcPeerEventsTests::MockPeerWithLocalSdpReadytoSend</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_sdp_readyto_send_1ab55dc7e37dc56b8864eb43efd55e5ad2" kind="event"><name>LocalSdpReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_peer_with_local_sdp_readyto_send_1af610356798d85d44e04af2e9c47245f4" kind="function"><name>Fire</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_webrtc" kind="class"><name>Tests::WebrtcPeerEventsTests::MockWebrtc</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_webrtc_1a4c3c0e4bdf39627eca3ac08c376a0037" kind="function"><name>SetPeer</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a1c1caa007efddcc7b4b94c535f8ad6e7" kind="function"><name>LocalDataChannelReady_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac0e69c1d36e346984303607a4d9f93bd" kind="function"><name>DataFromDataChannelReady_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aa96f5a0da51a131921e68ef5e8e7115f" kind="function"><name>FailureMessage_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1ac1a8650d57585e1ae45ecc80dffe878e" kind="function"><name>AudioBusReady_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a62214b8c8761a2e57bac742bae31d4c9" kind="function"><name>LocalI420FrameReady_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1aace5b8d5efb7619f7145901a1ae12aa1" kind="function"><name>RemoteI420FrameReady_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1a519cc53fd86f4c76223c4f258d737730" kind="function"><name>LocalSdpReadytoSend_Global</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks_1acb65d97a82c55186d47407ce73caee42" kind="function"><name>IceCandiateReadytoSend_Global</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeMethods</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a19f024bfb38187f86916bb810f614cf3" kind="function"><name>CreatePeerConnection</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a1f8571d9a4f0d875f05bbe3a1558e28a" kind="function"><name>ClosePeerConnection</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a5ce424adacb440ebd4f89884583ccbc6" kind="function"><name>AddStream</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a4ce18ec2a909457f3789fc617e103fec" kind="function"><name>AddDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1ad7690a220da018f4e54145acc18d47c1" kind="function"><name>CreateOffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1ada0ba39925efc7c8704f65ba38bd54e0" kind="function"><name>CreateAnswer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a89e214a5b22c3f3d98a029444dd2e2e2" kind="function"><name>SendDataViaDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a279498b89219a8ace2a9f46644393707" kind="function"><name>SetAudioControl</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a59affaefd7efab11f00f943b2190c707" kind="function"><name>SetRemoteDescription</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1ac0e5ee17820c5af690c2d2a54cad2e45" kind="function"><name>AddIceCandidate</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1aab7d1d88b7e643048e729b8e057135d9" kind="function"><name>LocalDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a8810195d69e13ca4d85cabdd6e8f6667" kind="function"><name>RegisterOnLocalDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a8cea35ef314f716ba6465c5714922a56" kind="function"><name>DataFromDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1ae680f8cb11dba7f3c7c8354c9dd835c8" kind="function"><name>RegisterOnDataFromDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a8b5c2f2604626313dc89a78fe29061e6" kind="function"><name>FailureMessage</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a22278bd516fe0616576524930eaa4fae" kind="function"><name>RegisterOnFailure</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a34d88c34988ff60aa16e172b826aae12" kind="function"><name>AudioBusReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a4bc6ea989adfa2853d2c606dc89aa2b1" kind="function"><name>RegisterOnAudioBusReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a54c095c27d71c60ecacb68a2a4b7d270" kind="function"><name>I420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a35089d4c7ab174d16743d1f5ad8b56fd" kind="function"><name>RegisterOnLocalI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a4f4d591488d07422b2354da1a9c7d16e" kind="function"><name>RegisterOnRemoteI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a840d45f914030bdd2b6be5756bf74328" kind="function"><name>LocalSdpReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1afd72c490eeb78f169cbc7b2808da8327" kind="function"><name>RegisterOnLocalSdpReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a1e996225c3178c27dbc6481c064bd7c5" kind="function"><name>IceCandiateReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods_1a2f7fbc986beb97c0da7da56732be0c96" kind="function"><name>RegisterOnIceCandiateReadytoSend</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a973a8c58eba37c5fe7b4d72c4dc5c90b" kind="event"><name>LocalDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa2f0ad89241cc371c7a15831d4d3fe14" kind="event"><name>DataFromDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a668103efb76ab9e0b8850cc6aae56637" kind="event"><name>FailureMessage</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1add57c78c1e389f0f6f044b6fb355785f" kind="event"><name>AudioBusReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9218b5653b6ab12527d79dfa7283ef2b" kind="event"><name>LocalI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa79a8464a458e730e2c531ddfef193d7" kind="event"><name>RemoteI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a253838bdbab180611fbe7ef9af380594" kind="event"><name>LocalSdpReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9d35f1962dd64657a1af03ccca324cde" kind="event"><name>IceCandiateReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a6df7983fd9b86a7ae327dc984ff0f60c" kind="variable"><name>peerId</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1abfcfdebb4a8f425a69e9f0072d87f89c" kind="variable"><name>peerHandle</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7349ebf57190b8a02cbfb8e533093a7c" kind="function"><name>NativePeer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ad38665a61551faf990aaa35990cd39e5" kind="function"><name>AddDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a5a7214512671b9a6513d06b2ca2d9d4d" kind="function"><name>AddIceCandidate</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a3af55304e357a6793f77b409aeda5ee3" kind="function"><name>AddStream</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a59b319ce815a3bb9c9fbb1b77601c04f" kind="function"><name>ClosePeerConnection</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7a44cf914c9e20b9a7c0e93133b17b86" kind="function"><name>CreateAnswer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a023fbe48c684a9730a1cf67c551ed5f2" kind="function"><name>CreateOffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a29dc0aa428c6e7e7ef2ab20eb6815d6f" kind="function"><name>GetUniqueId</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a61cb17e6da365d7ca5c1f0b3c497a056" kind="function"><name>SendDataViaDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ab5e480041e82445f39abda7865def4d5" kind="function"><name>SetAudioControl</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a79a5619f8d1f886db0c18066297a4d77" kind="function"><name>SetRemoteDescription</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls::ServerMessage</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a38c68dbc1b368269f702d5f8e16dcb7e" kind="variable"><name>type</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a66faa597c903a215c8062a70c7a03ab5" kind="variable"><name>data</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a10d086f5037119a08821bcef4c57d0b5" kind="variable"><name>dataSeparator</name></member>
+  </compound>
+  <compound refid="class_deque_utility_1_1_utility" kind="class"><name>DequeUtility::Utility</name>
+    <member refid="class_deque_utility_1_1_utility_1afb77b775e8c13d3605a8965e6cb2dd70" kind="function"><name>ClosestPowerOfTwoGreaterThan</name></member>
+    <member refid="class_deque_utility_1_1_utility_1a73287e9273ca2d700a27d4033dad9a17" kind="function"><name>Count&lt; TSource &gt;</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffef" kind="enum"><name>IceType</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa27e9c0d7972e999a5bbe094c4cede584" kind="enumvalue"><name>Stun</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffefa6b12be2513bab07567150f54467bc568" kind="enumvalue"><name>Turn</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a3842201b1511a69278ef3ba3626f6b91" kind="property"><name>Peer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ae65b421e4c95765b7cc8eb2b09e94e85" kind="variable"><name>AutoInitialize</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a0c13e75bd0442c977d330e8d7f5385d8" kind="variable"><name>AutoLogErrors</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a5d861ed669b6d75a94cb464fde222d24" kind="variable"><name>IceServers</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a77c2f5e66b0b9656cfadd1094a2f25cb" kind="variable"><name>IceUsername</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8a7132e2d2a7d32af7d086fe265988fa" kind="variable"><name>IceCredential</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a138074ba7f9bdfbd96d102f610d859f5" kind="variable"><name>OnInitialized</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a408df4ff8e66d433c29b3d391c6f32a2" kind="variable"><name>OnError</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ad5e9b0873e4040188f3002be54b88fc9" kind="variable"><name>MainThreadWorkloads</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeeb7e7f30661541e64004e696ff9ef82" kind="function"><name>Start</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a73b0f8bab3c83e045e84d05e392dcb77" kind="function"><name>Update</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a2e01c29f078899bac5243ef91ebe832f" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a22ea9b26bafde5db5543cfbe95d9fec8" kind="function"><name>RequestAccessAndInitAsync</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aa789ce570deb2c4c2327ac6c5d00f81b" kind="function"><name>InitializePlugin</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a551c92d3eff75e3abfb4f885a2a5d6d8" kind="function"><name>OnError_Listener</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a6c73169c01f79e72ca15b2ab8119d84b" kind="function"><name>InitializeAsync</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeec528bf52a68384421e62211bbfe3b6" kind="function"><name>Uninitialize</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc::WebrtcErrorEvent</name>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a1e327ae0141860e2ee3e335d6e3a33fb" kind="variable"><name>AutoLogErrors</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a49d9bc2805e71fec9271c7413a957dfd" kind="variable"><name>OnPeerReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ac3851784fc63719baddfc9c1ebe75bb9" kind="variable"><name>OnDataFromDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ac9620d88b8d84b7fa503948c774f4b79" kind="variable"><name>OnFailure</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ac2760d8d5da17b96ee5a70dcb2c817d6" kind="variable"><name>OnIceCandiateReadyToSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a657b398f7dd39b2e7acbc6c9bf71d099" kind="variable"><name>OnLocalDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1aadedc5f787c17f0bfc8fe29fb41bb1f6" kind="variable"><name>OnLocalSdpReadyToSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a68922b72b49dedf8735d6be036d2bbff" kind="variable"><name>OnSdpOfferReadyToSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a4caa1485e0a1587763f30c55ba057c9b" kind="variable"><name>OnSdpAnswerReadyToSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1af4faacf1de2105deab14335081b75824" kind="variable"><name>peer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ada130be4365dcd1c5efc0f3e02433018" kind="variable"><name>MainThreadWorkloads</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a2be094d249857254730b8f4a131a1d98" kind="function"><name>OnInitialized</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a2de54d05da588edca0f6253695e751cb" kind="function"><name>AddDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a443a233d98783668d5707a0d7592527e" kind="function"><name>AddIceCandidate</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a031afbab4dd69f0661c10b8fbaba9de1" kind="function"><name>AddStream</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1aaf5af3cca2fb228f9354732c6df7915b" kind="function"><name>ClosePeerConnection</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a42a7970f0fc5d80780c7608607bff983" kind="function"><name>CreateAnswer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1aff6a1cee3d4ff5fb289cf7dcd79c0e87" kind="function"><name>CreateOffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a02ff6e23c2604d931afd4761386e9186" kind="function"><name>GetUniqueId</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a768d7c54446b06e86d27e9197506b709" kind="function"><name>SendDataViaDataChannel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a1e016c2175e50972b4c6b34e118c8dfc" kind="function"><name>SetAudioControl</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a9ae0d9f9c060062e6ba0dfbfcebf41c7" kind="function"><name>SetRemoteDescription</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1af495958a35fdf44680f859034fd9a780" kind="function"><name>Log</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a06ed57419d9a881d25b579a468d14b45" kind="function"><name>Log</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ae1c962a296265a45288fd3042998d715" kind="function"><name>Log</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1aaca5483e5115cfc79b03c20c12dffb56" kind="function"><name>Log</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ab224c6c77f2466d627dd37b48edda5f7" kind="function"><name>Update</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a9dedcb05ab54a571679fe4824a6f1603" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1af5398144e1be6561ae17d7ee7c700484" kind="function"><name>OnFailure_Listener</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a2552bb0631c1671369ae9bbcc4b2d219" kind="function"><name>OnLocalSdpReadyToSend_Listener</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a519d90829d23c3c4f5400ef25fc96332" kind="function"><name>Peer_DataFromDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1aeb42af18be5100b9672459247b4c34b1" kind="function"><name>Peer_FailureMessage</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1a9786f87016727e1f5e02281d494bbd85" kind="function"><name>Peer_IceCandiateReadytoSend</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1ae2e9cc699e308b46a582825cd4829606" kind="function"><name>Peer_LocalDataChannelReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1adfc742f52279a3fa21ca541be8ff0cf3" kind="function"><name>Peer_LocalSdpReadytoSend</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_webrtc_peer_events_tests" kind="class"><name>Tests::WebrtcPeerEventsTests</name>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a031aa0aae3c9813df5a6f164f054a089" kind="function"><name>AllocWithGameObject</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1aa4262dc2a85e33122e53f424d0532bd0" kind="function"><name>InvokePrivateUpdate&lt; TBehaviour &gt;</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1aac7eb9da61edbf5282f3b31127534182" kind="function"><name>WebrtcPeerEvents_InitializeSuccess</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a5943feb14cdb334f4c2d95e783c6ef84" kind="function"><name>WebrtcPeerEvents_Fires_DataFromDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a9480e5509c74fd6ea0451a15acfca4a8" kind="function"><name>WebrtcPeerEvents_AutoLogErrors_Fires_FailureMessage</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a625eaf1e5e5ae231926cc5c0548c31b4" kind="function"><name>WebrtcPeerEvents_Fires_FailureMessage</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a879fda3315855aa1b04f5052df8aadc8" kind="function"><name>WebrtcPeerEvents_Fires_IceCandiateReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1ad2c473002e12740c2e36c6a47c7eadc8" kind="function"><name>WebrtcPeerEvents_Fires_LocalDataChannelReady</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a9588d0bffa08c9a3bb1ad878b556f98d" kind="function"><name>WebrtcPeerEvents_Fires_LocalSdpReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a089393ccfcc1ededc5eff3a38502b634" kind="function"><name>WebrtcPeerEvents_Answer_Fires_LocalSdpReadytoSend</name></member>
+    <member refid="class_tests_1_1_webrtc_peer_events_tests_1a6ebf9be6daa2b93a5efbfc534dc5a6fd" kind="function"><name>WebrtcPeerEvents_Offer_Fires_LocalSdpReadytoSend</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1_1_webrtc_peer_string2_event" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents::WebrtcPeerString2Event</name>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1_1_webrtc_peer_string_event" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents::WebrtcPeerStringEvent</name>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1b2d5bc23aa4623355fa834c8ee5384a5" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents::WebrtcPeerStringIntStringEvent</name>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerVideo</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1a7ed7d7009679bc3998e3f87ec0b1b547" kind="variable"><name>LocalPlayer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1a71ccdcd7f7fd8dc7ba8b96c4f83f873c" kind="variable"><name>RemotePlayer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1a62366e1c0070cc0c114fbbdd39a1d950" kind="variable"><name>peer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1ab325eb0c37520e9fd2169a2b26f5df3d" kind="variable"><name>localFrameQueue</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1a9260113219bd2a59f5d77ba881660d9e" kind="variable"><name>remoteFrameQueue</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1af88616c914e357275086c9d524d906fb" kind="function"><name>OnInitialized</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1abdcf571c2106675ef2d328b33fe3734f" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1aa5b1cb34723fb41e0e1af9445b01c539" kind="function"><name>Peer_LocalI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1a0bbca309f2e2afc9dfbb2c03ce922eef" kind="function"><name>Peer_RemoteI420FrameReady</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video_1aa6700b5f9330b1da64896e68ccda974d" kind="function"><name>CopyYuvToBuffer</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a790abca7e53204c90f07ef7fd8c34d3c" kind="variable"><name>kLastTargetId</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a21f4d9bfe681a70d71fa7c72d7202267" kind="variable"><name>timeSincePoll</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a2f9114bd14679923c54b3625e92af55f" kind="variable"><name>lastGetComplete</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1aa31954192c85d5b591cff8b09c67f8dc" kind="variable"><name>PeerEventsInstance</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1ae2ff9aad25236cbe3866c5a89193a2c6" kind="variable"><name>DeviceNameLabel</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1aa5e8d16bd764b99012f188036ec07292" kind="variable"><name>TargetIdField</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1aa7dde295836eec9e8227e8912adf6339" kind="variable"><name>CreateOfferButton</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a94fd15759ce95ae5e9c8d7560eb2e6b5" kind="variable"><name>HttpServerAddress</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a92f56532847d02f1f848c627588bb62a" kind="variable"><name>PollTimeMs</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a880380de95c49d78fe7b2c8249cef5b0" kind="function"><name>Start</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a29354e5a7bc3cbe317226085743eeb28" kind="function"><name>PostToServer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a07fef0fb8578ed5f415c58cfe1a07a9d" kind="function"><name>CO_GetAndProcessFromServer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1a4689e057bab7fbd326c1c440bf941d69" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcUIControls</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a6974a42fe61807db35a4f7da4aeb42ba" kind="variable"><name>peerEventsInstance</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a2eedcc4d8ae1d7038c204cbb5a68e845" kind="variable"><name>addLocalStream</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a3d90aa740d27f541023fc8fc03467315" kind="variable"><name>createOffer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1ade6cd2742960f294dcf583a99205cd44" kind="variable"><name>offerText</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1afce99003fed91a5a98ee038c723c066a" kind="variable"><name>createAnswer</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a0864f1643921206187981d5065d34445" kind="variable"><name>answerText</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1af6fff5a856b4a3c7ea7bf4e7dc6ac1e4" kind="variable"><name>localCandidates</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a57768e1eb83348490f9b9586645539ec" kind="variable"><name>remoteCandidates</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a775dad99e978cba906305400e45f0bbb" kind="variable"><name>submitRemoteCandidates</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls_1a8fa853c46e4b54c86a160f381588c7e9" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player" kind="class"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebRtcVideoPlayer</name>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a65ee7a7aa1491729924cfdd6606cf96f" kind="variable"><name>FrameLoadStatHolder</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a2ac58772f4f033b0219e76494276d750" kind="variable"><name>FramePresentStatHolder</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a893ffe3857a07d959963e2afe555a813" kind="variable"><name>FrameSkipStatHolder</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a0f185edd3ade042ee357685cbfb5d7ab" kind="variable"><name>FrameQueue</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1afe0a9bfe3ee4d90a12c3c377240c0cc8" kind="variable"><name>tex</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a97c2e49d7401433fdf18c776b615e93d" kind="variable"><name>lastUpdateTime</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a93befa9f27f596dec1dde133db77c494" kind="function"><name>Start</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a88dc258b2350bd9e0dd3e822be0e8478" kind="function"><name>Update</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1af63c238c89fcacf18d85916977632555" kind="function"><name>TryProcessFrame</name></member>
+    <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player_1a1d5c21038f8b3022781dc3e27dc0abc9" kind="function"><name>ProcessFrameBuffer</name></member>
+  </compound>
+  <compound refid="namespace_a_o_t" kind="namespace"><name>AOT</name>
+  </compound>
+  <compound refid="namespace_deque_utility" kind="namespace"><name>DequeUtility</name>
+  </compound>
+  <compound refid="namespace_microsoft" kind="namespace"><name>Microsoft</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality" kind="namespace"><name>Microsoft::MixedReality</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit" kind="namespace"><name>Microsoft::MixedReality::Toolkit</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions" kind="namespace"><name>Microsoft::MixedReality::Toolkit::Extensions</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc" kind="namespace"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates" kind="namespace"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Delegates</name>
+    <member refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates_1aeb47976f0fd4d4a9dff12c8e9ffce6c6" kind="function"><name>AudioBusReadyHandler</name></member>
+    <member refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates_1a4d42c26714e09daf7d0de0a12ab295f5" kind="function"><name>I420FrameReadyHandler</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_editor" kind="namespace"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Editor</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling" kind="namespace"><name>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling</name>
+  </compound>
+  <compound refid="namespace_n_unit_1_1_framework" kind="namespace"><name>NUnit::Framework</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_tests" kind="namespace"><name>Tests</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_networking" kind="namespace"><name>UnityEngine::Networking</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_test_tools" kind="namespace"><name>UnityEngine::TestTools</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_audio_bus_ready_handler_8cs" kind="file"><name>AudioBusReadyHandler.cs</name>
+  </compound>
+  <compound refid="_i420_frame_ready_handler_8cs" kind="file"><name>I420FrameReadyHandler.cs</name>
+  </compound>
+  <compound refid="_webrtc_peer_events_tests_8cs" kind="file"><name>WebrtcPeerEventsTests.cs</name>
+  </compound>
+  <compound refid="_web_rtc_video_player_editor_8cs" kind="file"><name>WebRtcVideoPlayerEditor.cs</name>
+  </compound>
+  <compound refid="_i_peer_8cs" kind="file"><name>IPeer.cs</name>
+  </compound>
+  <compound refid="_deque_8cs" kind="file"><name>Deque.cs</name>
+  </compound>
+  <compound refid="_frame_packet_8cs" kind="file"><name>FramePacket.cs</name>
+  </compound>
+  <compound refid="_frame_packet_pool_8cs" kind="file"><name>FramePacketPool.cs</name>
+  </compound>
+  <compound refid="_frame_queue_8cs" kind="file"><name>FrameQueue.cs</name>
+  </compound>
+  <compound refid="_frame_queue_stat_8cs" kind="file"><name>FrameQueueStat.cs</name>
+  </compound>
+  <compound refid="_i_readonly_frame_queue_stat_8cs" kind="file"><name>IReadonlyFrameQueueStat.cs</name>
+  </compound>
+  <compound refid="_native_peer_8cs" kind="file"><name>NativePeer.cs</name>
+  </compound>
+  <compound refid="_utility_8cs" kind="file"><name>Utility.cs</name>
+  </compound>
+  <compound refid="_webrtc_8cs" kind="file"><name>Webrtc.cs</name>
+  </compound>
+  <compound refid="_webrtc_peer_events_8cs" kind="file"><name>WebrtcPeerEvents.cs</name>
+  </compound>
+  <compound refid="_webrtc_peer_video_8cs" kind="file"><name>WebrtcPeerVideo.cs</name>
+  </compound>
+  <compound refid="_webrtc_signal_controls_8cs" kind="file"><name>WebrtcSignalControls.cs</name>
+  </compound>
+  <compound refid="_webrtc_u_i_controls_8cs" kind="file"><name>WebrtcUIControls.cs</name>
+  </compound>
+  <compound refid="_web_rtc_video_player_8cs" kind="file"><name>WebRtcVideoPlayer.cs</name>
+  </compound>
+  <compound refid="dir_75107e493f5f8c5e5139bd2585e44100" kind="dir"><name>Scripts/Delegates</name>
+  </compound>
+  <compound refid="dir_1f54c2afe23a8c3b35a56cf36ba51bdc" kind="dir"><name>Scripts/Editor</name>
+  </compound>
+  <compound refid="dir_ad44275a8224d2c84288dcc978e90352" kind="dir"><name>Scripts/Marshalling</name>
+  </compound>
+  <compound refid="dir_4edcbb236dfd51dd81727243a38df6a0" kind="dir"><name>Scripts</name>
+  </compound>
+  <compound refid="dir_0c7f2545a040286be3ef21d1f31665c0" kind="dir"><name>Scripts/Editor/Tests</name>
+  </compound>
+</doxygenindex>

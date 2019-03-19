@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_deque_utility_1_1_utility" kind="class" language="C#" prot="package">
+    <compoundname>DequeUtility::Utility</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_deque_utility_1_1_utility_1afb77b775e8c13d3605a8965e6cb2dd70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DequeUtility.Utility.ClosestPowerOfTwoGreaterThan</definition>
+        <argsstring>(int x)</argsstring>
+        <name>ClosestPowerOfTwoGreaterThan</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Utility.cs" line="12" column="1" bodyfile="Scripts/Marshalling/Utility.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deque_utility_1_1_utility_1a73287e9273ca2d700a27d4033dad9a17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DequeUtility.Utility.Count&lt; TSource &gt;</definition>
+        <argsstring>(IEnumerable&lt; TSource &gt; source)</argsstring>
+        <name>Count&lt; TSource &gt;</name>
+        <param>
+          <type>IEnumerable&lt; TSource &gt;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+<para>Jon Skeet&apos;s excellent reimplementation of LINQ Count. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source IEnumerable.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of items in the source.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Utility.cs" line="29" column="1" bodyfile="Scripts/Marshalling/Utility.cs" bodystart="29" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Based on <ulink url="https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample">https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample</ulink>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Marshalling/Utility.cs" line="11" column="1" bodyfile="Scripts/Marshalling/Utility.cs" bodystart="10" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_deque_utility_1_1_utility_1afb77b775e8c13d3605a8965e6cb2dd70" prot="public" virt="non-virtual"><scope>DequeUtility::Utility</scope><name>ClosestPowerOfTwoGreaterThan</name></member>
+      <member refid="class_deque_utility_1_1_utility_1a73287e9273ca2d700a27d4033dad9a17" prot="public" virt="non-virtual"><scope>DequeUtility::Utility</scope><name>Count&lt; TSource &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

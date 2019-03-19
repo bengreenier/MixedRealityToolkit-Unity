@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc" kind="namespace" language="C#">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc</compoundname>
+    <innerclass refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeer</innerclass>
+    <innerclass refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::IPeerImpl</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Webrtc</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_video" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerVideo</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_u_i_controls" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcUIControls</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_web_rtc_video_player" prot="public">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebRtcVideoPlayer</innerclass>
+    <innernamespace refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_delegates">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Delegates</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_editor">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Editor</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

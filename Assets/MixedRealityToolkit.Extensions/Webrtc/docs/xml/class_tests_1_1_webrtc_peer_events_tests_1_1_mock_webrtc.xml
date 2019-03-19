@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_webrtc" kind="class" language="C#" prot="private">
+    <compoundname>Tests::WebrtcPeerEventsTests::MockWebrtc</compoundname>
+    <basecompoundref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc" prot="public" virt="non-virtual">Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_webrtc_1a4c3c0e4bdf39627eca3ac08c376a0037" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.WebrtcPeerEventsTests.MockWebrtc.SetPeer</definition>
+        <argsstring>(IPeer mockPeer)</argsstring>
+        <name>SetPeer</name>
+        <param>
+          <type><ref refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" kindref="compound">IPeer</ref></type>
+          <declname>mockPeer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Editor/Tests/WebrtcPeerEventsTests.cs" line="21" column="1" bodyfile="Scripts/Editor/Tests/WebrtcPeerEventsTests.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>Tests.WebrtcPeerEventsTests.MockWebrtc</label>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Webrtc</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>Tests.WebrtcPeerEventsTests.MockWebrtc</label>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Webrtc</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>OnError</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>UnityEvent&lt; string &gt;</label>
+      </node>
+      <node id="81">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Webrtc.WebrtcErrorEvent</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1_1_webrtc_error_event"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Editor/Tests/WebrtcPeerEventsTests.cs" line="20" column="1" bodyfile="Scripts/Editor/Tests/WebrtcPeerEventsTests.cs" bodystart="19" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1ae65b421e4c95765b7cc8eb2b09e94e85" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>AutoInitialize</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a0c13e75bd0442c977d330e8d7f5385d8" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>AutoLogErrors</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8a7132e2d2a7d32af7d086fe265988fa" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>IceCredential</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a5d861ed669b6d75a94cb464fde222d24" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>IceServers</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a8de275636fe5af799d5980d993bdffef" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>IceType</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a77c2f5e66b0b9656cfadd1094a2f25cb" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>IceUsername</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a6c73169c01f79e72ca15b2ab8119d84b" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>InitializeAsync</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a408df4ff8e66d433c29b3d391c6f32a2" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>OnError</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a138074ba7f9bdfbd96d102f610d859f5" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>OnInitialized</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1a3842201b1511a69278ef3ba3626f6b91" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>Peer</name></member>
+      <member refid="class_tests_1_1_webrtc_peer_events_tests_1_1_mock_webrtc_1a4c3c0e4bdf39627eca3ac08c376a0037" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>SetPeer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_1aeec528bf52a68384421e62211bbfe3b6" prot="public" virt="non-virtual"><scope>Tests::WebrtcPeerEventsTests::MockWebrtc</scope><name>Uninitialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

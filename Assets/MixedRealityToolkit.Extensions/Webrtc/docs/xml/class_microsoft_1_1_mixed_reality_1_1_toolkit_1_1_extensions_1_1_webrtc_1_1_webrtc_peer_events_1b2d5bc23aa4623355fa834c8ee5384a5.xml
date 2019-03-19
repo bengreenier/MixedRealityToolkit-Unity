@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1b2d5bc23aa4623355fa834c8ee5384a5" kind="class" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcPeerEvents::WebrtcPeerStringIntStringEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; string, int, string &gt;</basecompoundref>
+    <briefdescription>
+<para>Represents a peer event composed of a string-literal, an int, and another string-literal </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>UnityEvent&lt; string, int, string &gt;</label>
+      </node>
+      <node id="129">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.WebrtcPeerEvents.WebrtcPeerStringIntStringEvent</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1b2d5bc23aa4623355fa834c8ee5384a5"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="132">
+        <label>UnityEvent&lt; string, int, string &gt;</label>
+      </node>
+      <node id="131">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.WebrtcPeerEvents.WebrtcPeerStringIntStringEvent</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_peer_events_1b2d5bc23aa4623355fa834c8ee5384a5"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/WebrtcPeerEvents.cs" line="37" column="1" bodyfile="Scripts/WebrtcPeerEvents.cs" bodystart="36" bodyend="38"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

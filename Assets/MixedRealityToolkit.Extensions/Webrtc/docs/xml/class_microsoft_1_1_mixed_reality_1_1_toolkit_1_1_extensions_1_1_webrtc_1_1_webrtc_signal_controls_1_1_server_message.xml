@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message" kind="class" language="C#" prot="private">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls::ServerMessage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a38c68dbc1b368269f702d5f8e16dcb7e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.WebrtcSignalControls.ServerMessage.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+<para>The type of message </para>        </briefdescription>
+        <detaileddescription>
+<para>Valid values are defined in Update </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/WebrtcSignalControls.cs" line="29" column="1" bodyfile="Scripts/WebrtcSignalControls.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a66faa597c903a215c8062a70c7a03ab5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.WebrtcSignalControls.ServerMessage.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>The raw data of the message </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/WebrtcSignalControls.cs" line="34" column="1" bodyfile="Scripts/WebrtcSignalControls.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a10d086f5037119a08821bcef4c57d0b5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.WebrtcSignalControls.ServerMessage.dataSeparator</definition>
+        <argsstring></argsstring>
+        <name>dataSeparator</name>
+        <briefdescription>
+<para>An optional field indicating that data is composed of many data pieces that should be string.Split(string[], StringSplitOptions) by this value </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/WebrtcSignalControls.cs" line="40" column="1" bodyfile="Scripts/WebrtcSignalControls.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Utility class for using JsonUtility to serialize and deserialize messages </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/WebrtcSignalControls.cs" line="22" column="1" bodyfile="Scripts/WebrtcSignalControls.cs" bodystart="21" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a66faa597c903a215c8062a70c7a03ab5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls::ServerMessage</scope><name>data</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a10d086f5037119a08821bcef4c57d0b5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls::ServerMessage</scope><name>dataSeparator</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_webrtc_signal_controls_1_1_server_message_1a38c68dbc1b368269f702d5f8e16dcb7e" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::WebrtcSignalControls::ServerMessage</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

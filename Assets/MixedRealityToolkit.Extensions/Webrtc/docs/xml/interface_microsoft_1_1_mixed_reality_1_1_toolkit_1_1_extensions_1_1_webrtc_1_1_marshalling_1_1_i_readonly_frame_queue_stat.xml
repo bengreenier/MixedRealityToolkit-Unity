@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat" kind="interface" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::IReadonlyFrameQueueStat</compoundname>
+    <derivedcompoundref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat" prot="public" virt="non-virtual">Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FrameQueueStat</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat_1abfe2ed3104901f847e1ecc91ee613f1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.IReadonlyFrameQueueStat.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The average value calculated for the stat </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/IReadonlyFrameQueueStat.cs" line="11" column="1" bodyfile="Scripts/Marshalling/IReadonlyFrameQueueStat.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A readonly frame queue stat </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.IReadonlyFrameQueueStat</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat"/>
+      </node>
+      <node id="33">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FrameQueueStat</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_queue_stat"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Scripts/Marshalling/IReadonlyFrameQueueStat.cs" line="7" column="1" bodyfile="Scripts/Marshalling/IReadonlyFrameQueueStat.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_i_readonly_frame_queue_stat_1abfe2ed3104901f847e1ecc91ee613f1d" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::IReadonlyFrameQueueStat</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

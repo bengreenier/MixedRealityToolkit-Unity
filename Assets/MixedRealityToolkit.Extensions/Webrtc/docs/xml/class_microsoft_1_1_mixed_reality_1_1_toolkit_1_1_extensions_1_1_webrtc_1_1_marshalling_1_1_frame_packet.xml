@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet" kind="class" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a81f11687ec5da5edc848b709e016a8c7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="12" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a428f3b67cac730a84039f18247dd63f4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="13" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1abd46209262f7b3f718d448fbde744fd2" prot="private" static="no" mutable="no">
+        <type>byte []</type>
+        <definition>byte [] Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket._buffer</definition>
+        <argsstring></argsstring>
+        <name>_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="14" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1afd7521f515bb6c173d3c1a76ac9165ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>byte []</type>
+        <definition>byte [] Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket.Buffer</definition>
+        <argsstring></argsstring>
+        <name>Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="15" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ae332d06838b5d1de85cc281625156877" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket.FramePacket</definition>
+        <argsstring>(int bufsize)</argsstring>
+        <name>FramePacket</name>
+        <param>
+          <type>int</type>
+          <declname>bufsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="7" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ab60ea3e0bc9b4eb0aad246719496661f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.FramePacket.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/FramePacket.cs" line="20" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Based on <ulink url="https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample">https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample</ulink>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Marshalling/FramePacket.cs" line="6" column="1" bodyfile="Scripts/Marshalling/FramePacket.cs" bodystart="5" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1abd46209262f7b3f718d448fbde744fd2" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>_buffer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1afd7521f515bb6c173d3c1a76ac9165ee" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>Buffer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ae332d06838b5d1de85cc281625156877" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>FramePacket</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a428f3b67cac730a84039f18247dd63f4" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>height</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1ab60ea3e0bc9b4eb0aad246719496661f" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>ToString</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_frame_packet_1a81f11687ec5da5edc848b709e016a8c7" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::FramePacket</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

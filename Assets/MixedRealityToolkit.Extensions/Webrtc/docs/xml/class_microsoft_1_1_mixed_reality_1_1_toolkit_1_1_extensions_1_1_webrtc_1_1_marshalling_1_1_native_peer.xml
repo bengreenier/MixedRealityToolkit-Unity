@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer" kind="class" language="C#" prot="public">
+    <compoundname>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</compoundname>
+    <basecompoundref refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer" prot="public" virt="non-virtual">Microsoft.MixedReality.Toolkit.Extensions.Webrtc.IPeer</basecompoundref>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_callbacks" prot="private">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeCallbacks</innerclass>
+    <innerclass refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1_1_native_methods" prot="private">Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer::NativeMethods</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a973a8c58eba37c5fe7b4d72c4dc5c90b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.LocalDataChannelReady</definition>
+        <argsstring></argsstring>
+        <name>LocalDataChannelReady</name>
+        <briefdescription>
+<para>Event that occurs when the local data channel is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="319" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa2f0ad89241cc371c7a15831d4d3fe14" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string &gt;</type>
+        <definition>Action&lt;string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.DataFromDataChannelReady</definition>
+        <argsstring></argsstring>
+        <name>DataFromDataChannelReady</name>
+        <briefdescription>
+<para>Event that occurs when data is available from the remote, sent via the data channel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="324" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a668103efb76ab9e0b8850cc6aae56637" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string &gt;</type>
+        <definition>Action&lt;string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.FailureMessage</definition>
+        <argsstring></argsstring>
+        <name>FailureMessage</name>
+        <briefdescription>
+<para>Event that occurs when a native failure occurs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="329" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1add57c78c1e389f0f6f044b6fb355785f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>AudioBusReadyHandler</type>
+        <definition>AudioBusReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.AudioBusReady</definition>
+        <argsstring></argsstring>
+        <name>AudioBusReady</name>
+        <briefdescription>
+<para>Event that occurs when the audio bus is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="334" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9218b5653b6ab12527d79dfa7283ef2b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>I420FrameReadyHandler</type>
+        <definition>I420FrameReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.LocalI420FrameReady</definition>
+        <argsstring></argsstring>
+        <name>LocalI420FrameReady</name>
+        <briefdescription>
+<para>Event that occurs when a local frame is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="339" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa79a8464a458e730e2c531ddfef193d7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>I420FrameReadyHandler</type>
+        <definition>I420FrameReadyHandler Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.RemoteI420FrameReady</definition>
+        <argsstring></argsstring>
+        <name>RemoteI420FrameReady</name>
+        <briefdescription>
+<para>Event that occurs when a remote frame is ready </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="344" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a253838bdbab180611fbe7ef9af380594" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string, string &gt;</type>
+        <definition>Action&lt;string, string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.LocalSdpReadytoSend</definition>
+        <argsstring></argsstring>
+        <name>LocalSdpReadytoSend</name>
+        <briefdescription>
+<para>Event that occurs when a local SDP is ready to transmit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="349" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9d35f1962dd64657a1af03ccca324cde" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; string, int, string &gt;</type>
+        <definition>Action&lt;string, int, string&gt; Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.IceCandiateReadytoSend</definition>
+        <argsstring></argsstring>
+        <name>IceCandiateReadytoSend</name>
+        <briefdescription>
+<para>Event that occurs when a local ice candidate is ready to transmit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="354" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a6df7983fd9b86a7ae327dc984ff0f60c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.peerId</definition>
+        <argsstring></argsstring>
+        <name>peerId</name>
+        <briefdescription>
+<para>Internal peer id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="359" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1abfcfdebb4a8f425a69e9f0072d87f89c" prot="private" static="no" mutable="no">
+        <type>GCHandle</type>
+        <definition>GCHandle Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.peerHandle</definition>
+        <argsstring></argsstring>
+        <name>peerHandle</name>
+        <briefdescription>
+<para>Internal pinned gc handle to <computeroutput>this</computeroutput> </para>        </briefdescription>
+        <detaileddescription>
+<para>this allows us to use il2cpp callbacks (which require static handlers) but still keep our instance-based interface on the managed side </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="368" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7349ebf57190b8a02cbfb8e533093a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.NativePeer</definition>
+        <argsstring>(List&lt; string &gt; turnUrls, string username, string credential)</argsstring>
+        <name>NativePeer</name>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>turnUrls</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>credential</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="370" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="370" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ad38665a61551faf990aaa35990cd39e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.AddDataChannel</definition>
+        <argsstring>()</argsstring>
+        <name>AddDataChannel</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7d57a4a786a2f4e449b9ca7b36799d06">AddDataChannel</reimplements>
+        <briefdescription>
+<para>Add a data channel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="411" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="411" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a5a7214512671b9a6513d06b2ca2d9d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.AddIceCandidate</definition>
+        <argsstring>(string sdp, int sdpMlineindex, string sdpMid)</argsstring>
+        <name>AddIceCandidate</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1ad8a356dc6a22960049530d5f6a77b237">AddIceCandidate</reimplements>
+        <param>
+          <type>string</type>
+          <declname>candidate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sdpMlineindex</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sdpMid</declname>
+        </param>
+        <briefdescription>
+<para>Add an ice candidate </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>candidate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sdp candidate data</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sdpMlineindex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sdp mline index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sdpMid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sdp mid</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="416" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="416" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a3af55304e357a6793f77b409aeda5ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.AddStream</definition>
+        <argsstring>(bool audioOnly)</argsstring>
+        <name>AddStream</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a60333a73ec19863c1c3d2e2c752af244">AddStream</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>audioOnly</declname>
+        </param>
+        <briefdescription>
+<para>Add a stream </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audioOnly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>flag indicating if the stream should only contain audio</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="421" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a59b319ce815a3bb9c9fbb1b77601c04f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.ClosePeerConnection</definition>
+        <argsstring>()</argsstring>
+        <name>ClosePeerConnection</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a15e764d95b6a3a96255dd09206bb1165">ClosePeerConnection</reimplements>
+        <briefdescription>
+<para>Close the peer connection </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="426" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="426" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7a44cf914c9e20b9a7c0e93133b17b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.CreateAnswer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAnswer</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4ea353f11385d3dc1cc33662d7069825">CreateAnswer</reimplements>
+        <briefdescription>
+<para>Create an sdp answer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="431" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="431" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a023fbe48c684a9730a1cf67c551ed5f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.CreateOffer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateOffer</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a4dbdbe11cf313b3bd8f327358d2c67eb">CreateOffer</reimplements>
+        <briefdescription>
+<para>Create an sdp offer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="436" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="436" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a29dc0aa428c6e7e7ef2ab20eb6815d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.GetUniqueId</definition>
+        <argsstring>()</argsstring>
+        <name>GetUniqueId</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7e1b14db7a1665fbd118df802703b7a4">GetUniqueId</reimplements>
+        <briefdescription>
+<para>Get the peer id </para>        </briefdescription>
+        <detaileddescription>
+<para>TODO(bengreenier): would be nice to refactor to property, to be more c-sharpy </para><para><simplesect kind="return"><para>the peer id</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="448" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="448" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a61cb17e6da365d7ca5c1f0b3c497a056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.SendDataViaDataChannel</definition>
+        <argsstring>(string data)</argsstring>
+        <name>SendDataViaDataChannel</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1aecc919519dccb5e2cfa20b68b1ecc73c">SendDataViaDataChannel</reimplements>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Send data via the created data channel </para>        </briefdescription>
+        <detaileddescription>
+<para>Must call <ref refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ad38665a61551faf990aaa35990cd39e5" kindref="member">AddDataChannel</ref> first </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data to send</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="453" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="453" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ab5e480041e82445f39abda7865def4d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.SetAudioControl</definition>
+        <argsstring>(bool isMute, bool isRecord)</argsstring>
+        <name>SetAudioControl</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a7dffec1fec6045243444b98ef3f6262c">SetAudioControl</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isMute</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isRecord</declname>
+        </param>
+        <briefdescription>
+<para>Adjust audio controls </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isMute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the stream muted</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isRecord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the stream recording data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="458" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="458" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a79a5619f8d1f886db0c18066297a4d77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer.SetRemoteDescription</definition>
+        <argsstring>(string type, string sdp)</argsstring>
+        <name>SetRemoteDescription</name>
+        <reimplements refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl_1a3682e5c3d1a51595ab56bfc3e2b80155">SetRemoteDescription</reimplements>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sdp</declname>
+        </param>
+        <briefdescription>
+<para>Set the remote stream description </para>        </briefdescription>
+        <detaileddescription>
+<para>Known valid types are &quot;answer&quot; and &quot;offer&quot; </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description type</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sdp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sdp data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/NativePeer.cs" line="463" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="463" bodyend="466"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A peer, backed by a native-library implementation </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="88">
+        <label>IPeer</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>IPeerImpl</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="91">
+        <label>IPeer</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Marshalling.NativePeer</label>
+        <link refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>IPeerImpl</label>
+        <link refid="interface_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_i_peer_impl"/>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Marshalling/NativePeer.cs" line="13" column="1" bodyfile="Scripts/Marshalling/NativePeer.cs" bodystart="12" bodyend="469"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ad38665a61551faf990aaa35990cd39e5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>AddDataChannel</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a5a7214512671b9a6513d06b2ca2d9d4d" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>AddIceCandidate</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a3af55304e357a6793f77b409aeda5ee3" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>AddStream</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1add57c78c1e389f0f6f044b6fb355785f" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>AudioBusReady</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a59b319ce815a3bb9c9fbb1b77601c04f" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>ClosePeerConnection</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7a44cf914c9e20b9a7c0e93133b17b86" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>CreateAnswer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a023fbe48c684a9730a1cf67c551ed5f2" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>CreateOffer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa2f0ad89241cc371c7a15831d4d3fe14" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>DataFromDataChannelReady</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a668103efb76ab9e0b8850cc6aae56637" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>FailureMessage</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a29dc0aa428c6e7e7ef2ab20eb6815d6f" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>GetUniqueId</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9d35f1962dd64657a1af03ccca324cde" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>IceCandiateReadytoSend</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a973a8c58eba37c5fe7b4d72c4dc5c90b" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>LocalDataChannelReady</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a9218b5653b6ab12527d79dfa7283ef2b" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>LocalI420FrameReady</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a253838bdbab180611fbe7ef9af380594" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>LocalSdpReadytoSend</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a7349ebf57190b8a02cbfb8e533093a7c" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>NativePeer</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1abfcfdebb4a8f425a69e9f0072d87f89c" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>peerHandle</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a6df7983fd9b86a7ae327dc984ff0f60c" prot="private" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>peerId</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1aa79a8464a458e730e2c531ddfef193d7" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>RemoteI420FrameReady</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a61cb17e6da365d7ca5c1f0b3c497a056" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>SendDataViaDataChannel</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1ab5e480041e82445f39abda7865def4d5" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>SetAudioControl</name></member>
+      <member refid="class_microsoft_1_1_mixed_reality_1_1_toolkit_1_1_extensions_1_1_webrtc_1_1_marshalling_1_1_native_peer_1a79a5619f8d1f886db0c18066297a4d77" prot="public" virt="non-virtual"><scope>Microsoft::MixedReality::Toolkit::Extensions::Webrtc::Marshalling::NativePeer</scope><name>SetRemoteDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

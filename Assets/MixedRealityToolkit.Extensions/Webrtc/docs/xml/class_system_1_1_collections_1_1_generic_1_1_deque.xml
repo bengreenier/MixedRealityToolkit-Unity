@@ -1,0 +1,1217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_system_1_1_collections_1_1_generic_1_1_deque" kind="class" language="C#" prot="public">
+    <compoundname>System::Collections::Generic::Deque</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IList&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_system_1_1_collections_1_1_generic_1_1_deque_1aff2d1162726376a032fb9a534a049c9e" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int System.Collections.Generic.Deque&lt; T &gt;.defaultCapacity</definition>
+        <argsstring></argsstring>
+        <name>defaultCapacity</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+<para>The default capacity of the deque. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="23" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a462ee49d30cb5ae2965f65d31c41b01f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.startOffset</definition>
+        <argsstring></argsstring>
+        <name>startOffset</name>
+        <briefdescription>
+<para>The first element offset from the beginning of the data array. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="28" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a8a8f72c5617bb30a71e2fc9d16153459" prot="private" static="no" mutable="no">
+        <type>T []</type>
+        <definition>T [] System.Collections.Generic.Deque&lt; T &gt;.buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+<para>The circular array holding the items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="33" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a66da43d0b6e938a33321435fe0d37400" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.capacityClosestPowerOfTwoMinusOne</definition>
+        <argsstring></argsstring>
+        <name>capacityClosestPowerOfTwoMinusOne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="68" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1aed22bb0eecad95774e72a2183f99e08f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.Capacity</definition>
+        <argsstring></argsstring>
+        <name>Capacity</name>
+        <briefdescription>
+<para>Gets or sets the total number of elements the internal array can hold without resizing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="74" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a11c42446ea633dbcf79ef08300331bb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool System.Collections.Generic.Deque&lt; T &gt;.IsFull</definition>
+        <argsstring></argsstring>
+        <name>IsFull</name>
+        <briefdescription>
+<para>Gets whether or not the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> is filled to capacity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="117" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a70bbaf601af1af6b1325450ba29d9ddf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool System.Collections.Generic.Deque&lt; T &gt;.IsEmpty</definition>
+        <argsstring></argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+<para>Gets whether or not the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> is empty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="125" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b8afcf2baea1dd0cc59b1b33fbda55c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool ICollection&lt; T &gt;.</type>
+        <definition>bool ICollection&lt;T&gt;. System.Collections.Generic.Deque&lt; T &gt;.IsReadOnly</definition>
+        <argsstring></argsstring>
+        <name>IsReadOnly</name>
+        <briefdescription>
+<para>Gets a value indicating whether the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> is read-only. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="258" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a6327caf4789883bcfd697842f51b896e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+<para>Gets the number of elements contained in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="266" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a459278b4ed9c2878269ecb05fb2fd4b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T System.Collections.Generic.Deque&lt; T &gt;.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+<para>Gets or sets the element at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index of the element to get or set. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The element at the specified index</para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><emphasis>index</emphasis>  is not a valid index in this deque </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="430" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a53687522b3603f342996777daecfe600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>System.Collections.Generic.Deque&lt; T &gt;.Deque</definition>
+        <argsstring>()</argsstring>
+        <name>Deque</name>
+        <briefdescription>
+<para>Creates a new instance of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> class with the default capacity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="39" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a51e556b3d7a65475d64f23c6d1245047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>System.Collections.Generic.Deque&lt; T &gt;.Deque</definition>
+        <argsstring>(int capacity)</argsstring>
+        <name>Deque</name>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> class with the specified capacity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>capacity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial capacity of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="46" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a7bd6f2bb4745470e1c327aa08eb330af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>System.Collections.Generic.Deque&lt; T &gt;.Deque</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection)</argsstring>
+        <name>Deque</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Create a new instance of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> class with the elements from the specified collection. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The co</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="62" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a404a8d0f107c7c92bac15106cc6d17e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; T &gt;</type>
+        <definition>IEnumerator&lt;T&gt; System.Collections.Generic.Deque&lt; T &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+<para>Returns an enumerator that iterates through the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An iterator that can be used to iterate through the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="211" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="211" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1aeda32c4a9eb99629627a902e1e0bba6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.Add</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Adds an item to the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to add to the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="286" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a0312c1a1cf13f4c379c8957f8d56b401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Removes all items from the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="311" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="311" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1acbdde8ff31afb6756430c1836761cc9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool System.Collections.Generic.Deque&lt; T &gt;.Contains</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> contains a specific value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to locate in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if item is found in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>; otherwise, false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="328" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a0947787d33b03dd05ea378ecc450e44f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.CopyTo</definition>
+        <argsstring>(T[] array, int arrayIndex)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>T []</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arrayIndex</declname>
+        </param>
+        <briefdescription>
+<para>Copies the elements of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> to a System.Array, starting at a particular System.Array index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The one-dimensional System.Array that is the destination of the elements copied from the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. The System.Array must have zero-based indexing. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arrayIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index in array at which copying begins. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array is null. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arrayIndex is less than 0. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements in the source <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> is greater than the available space from arrayIndex to the end of the destination array. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="356" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="356" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1aed9f95d69dc746be6a78e51f6d9a12d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool System.Collections.Generic.Deque&lt; T &gt;.Remove</definition>
+        <argsstring>(T item)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Removes the first occurrence of a specific object from the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to remove from the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if item was successfully removed from the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>; otherwise, false. This method also returns false if item is not found in the original </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="399" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="399" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a0040f2c10cf74e050bd4b8e7d197ec51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.Insert</definition>
+        <argsstring>(int index, T item)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Inserts an item to the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index at which item should be inserted. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert into the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><emphasis>index</emphasis>  is not a valid index in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="453" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="453" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a1a757181e2a5980b40b04ad308c32f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.IndexOf</definition>
+        <argsstring>(T item)</argsstring>
+        <name>IndexOf</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Determines the index of a specific item in the deque. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to locate in the deque.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index of the item if found in the deque; otherwise, -1. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="478" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="478" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a43a520a9816c7471ad717fe410c8b8d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.RemoveAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Removes the item at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index of the item to remove. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><emphasis>index</emphasis>  is not a valid index in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="507" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="507" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1acd52833f83146fd1892086be0d8e0ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddFront</definition>
+        <argsstring>(T item)</argsstring>
+        <name>AddFront</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Adds the provided item to the front of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="528" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="528" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2e1901fd93f096e14ed33e5cbe3b66e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddBack</definition>
+        <argsstring>(T item)</argsstring>
+        <name>AddBack</name>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Adds the provided item to the back of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="539" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="539" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ab742e93a18cff9c54ca93de0bf632eea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T System.Collections.Generic.Deque&lt; T &gt;.RemoveFront</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveFront</name>
+        <briefdescription>
+<para>Removes an item from the front of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The item at the front of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="550" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="550" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a875755cdbca8184a2449965b164aa4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T System.Collections.Generic.Deque&lt; T &gt;.RemoveBack</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveBack</name>
+        <briefdescription>
+<para>Removes an item from the back of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The item in the back of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="567" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="567" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a245a33436bd8ade9f02656ba777b78e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddRange</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection)</argsstring>
+        <name>AddRange</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Adds a collection of items to the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="586" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="586" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1aa8f7a8574f51606eec901d20ae339783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddFrontRange</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection)</argsstring>
+        <name>AddFrontRange</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Adds a collection of items to the front of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="595" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="595" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ace2b4fdfff209415dcc1b7bee86fcb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddFrontRange</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection, int fromIndex, int count)</argsstring>
+        <name>AddFrontRange</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Adds count items from a collection of items from a specified index to the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fromIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the collection to begin adding from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items in the collection to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="611" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="611" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1afff1f6270591cf9ae49998bbc1840802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddBackRange</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection)</argsstring>
+        <name>AddBackRange</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Adds a collection of items to the back of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="623" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="623" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a4d1d956e60138c1885473971a89e4416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.AddBackRange</definition>
+        <argsstring>(IEnumerable&lt; T &gt; collection, int fromIndex, int count)</argsstring>
+        <name>AddBackRange</name>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Adds count items from a collection of items from a specified index to the back of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fromIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the collection to begin adding from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items in the collection to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="639" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="639" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a275b7951a82869b6f283b924b8d61a36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.InsertRange</definition>
+        <argsstring>(int index, IEnumerable&lt; T &gt; collection)</argsstring>
+        <name>InsertRange</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a collection of items into the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> to insert the collection. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="655" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="655" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a2fae5f3910ac37432a1a487e6bdf2d05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.InsertRange</definition>
+        <argsstring>(int index, IEnumerable&lt; T &gt; collection, int fromIndex, int count)</argsstring>
+        <name>InsertRange</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; T &gt;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Inserts count items from a collection of items from a specified index into the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> to insert the collection. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection to add.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fromIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index in the collection to begin adding from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of items in the colleciton to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="675" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="675" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ab5f46e197f15d781776cca7aaf94ecc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.RemoveRange</definition>
+        <argsstring>(int index, int count)</argsstring>
+        <name>RemoveRange</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Removes a range of elements from the view. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index into the view at which the range begins. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements in the range. This must be greater than 0 and less than or equal to <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a6327caf4789883bcfd697842f51b896e" kindref="member">Count</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="753" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="753" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1adb909bae9eac28a548b30cbc041c467f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T System.Collections.Generic.Deque&lt; T &gt;.Get</definition>
+        <argsstring>(int index)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Gets the value at the specified index of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="824" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="824" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1adaf92ba1a427d0351173444d4d1d9463" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.Set</definition>
+        <argsstring>(int index, T item)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Sets the value at the specified index of the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> to the given item. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the deque to set the item.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to set at the specified index.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="836" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="836" bodyend="840"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a8d369e7c0f11e5271ce97b2d7b6758d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.ensureCapacityFor</definition>
+        <argsstring>(int numElements)</argsstring>
+        <name>ensureCapacityFor</name>
+        <param>
+          <type>int</type>
+          <declname>numElements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="130" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b127f4d3a631a6cb6ee9b1c1afb230e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.toBufferIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>toBufferIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="138" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="138" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a6032b406ba7615e9a68e5a192e852743" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.checkIndexOutOfRange</definition>
+        <argsstring>(int index)</argsstring>
+        <name>checkIndexOutOfRange</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="148" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="148" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2d7a7c9d07ca86948c09028e096f5de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.shiftStartOffset</definition>
+        <argsstring>(int value)</argsstring>
+        <name>shiftStartOffset</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="184" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ad3839fab70c2acf17c277d9322e8232a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.preShiftStartOffset</definition>
+        <argsstring>(int value)</argsstring>
+        <name>preShiftStartOffset</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="191" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a5f21c824b26b0057a7c8766e01cc78c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int System.Collections.Generic.Deque&lt; T &gt;.postShiftStartOffset</definition>
+        <argsstring>(int value)</argsstring>
+        <name>postShiftStartOffset</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="198" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a53a38e3173f2729f6a7b3b506397b545" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. System.Collections.Generic.Deque&lt; T &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+<para>Returns an enumerator that iterates through the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An iterator that can be used to iterate through the <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="248" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a10c102a39c9651ced67d74beb3ecda5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.incrementCount</definition>
+        <argsstring>(int value)</argsstring>
+        <name>incrementCount</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="272" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a062b751fbdc49b43ed2c55bb37fd1cf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.decrementCount</definition>
+        <argsstring>(int value)</argsstring>
+        <name>decrementCount</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="277" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1a7488ca6ca290d396910269f800a72710" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void System.Collections.Generic.Deque&lt; T &gt;.ClearBuffer</definition>
+        <argsstring>(int logicalIndex, int length)</argsstring>
+        <name>ClearBuffer</name>
+        <param>
+          <type>int</type>
+          <declname>logicalIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="291" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="291" bodyend="306"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_system_1_1_collections_1_1_generic_1_1_deque_1ac129b26591c7a6d10eb85921452a06fd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void System.Collections.Generic.Deque&lt; T &gt;.checkArgumentsOutOfRange</definition>
+        <argsstring>(int length, int offset, int count)</argsstring>
+        <name>checkArgumentsOutOfRange</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Marshalling/Deque.cs" line="157" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="157" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A genetic <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> class. It can be thought of as a double-ended queue, hence <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref>. This allows for an O(1) AddFront, AddBack, RemoveFront, RemoveBack. The <ref refid="class_system_1_1_collections_1_1_generic_1_1_deque" kindref="compound">Deque</ref> also has O(1) indexed lookup, as it is backed by a circular array. </para>    </briefdescription>
+    <detaileddescription>
+<para>Based on <ulink url="https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample">https://unitylist.com/p/cxl/Web-Rtc-Unity-Plugin-Sample</ulink> </para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of objects to store in the deque. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System.Collections.Generic.Deque&lt; T &gt;</label>
+        <link refid="class_system_1_1_collections_1_1_generic_1_1_deque"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IList&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>System.Collections.Generic.Deque&lt; T &gt;</label>
+        <link refid="class_system_1_1_collections_1_1_generic_1_1_deque"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IList&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Marshalling/Deque.cs" line="18" column="1" bodyfile="Scripts/Marshalling/Deque.cs" bodystart="17" bodyend="842"/>
+    <listofallmembers>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aeda32c4a9eb99629627a902e1e0bba6f" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Add</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2e1901fd93f096e14ed33e5cbe3b66e" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddBack</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1afff1f6270591cf9ae49998bbc1840802" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddBackRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a4d1d956e60138c1885473971a89e4416" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddBackRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1acd52833f83146fd1892086be0d8e0ba8" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddFront</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aa8f7a8574f51606eec901d20ae339783" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddFrontRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ace2b4fdfff209415dcc1b7bee86fcb49" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddFrontRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a245a33436bd8ade9f02656ba777b78e8" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>AddRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a8a8f72c5617bb30a71e2fc9d16153459" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>buffer</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aed22bb0eecad95774e72a2183f99e08f" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Capacity</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a66da43d0b6e938a33321435fe0d37400" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>capacityClosestPowerOfTwoMinusOne</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ac129b26591c7a6d10eb85921452a06fd" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>checkArgumentsOutOfRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a6032b406ba7615e9a68e5a192e852743" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>checkIndexOutOfRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0312c1a1cf13f4c379c8957f8d56b401" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Clear</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a7488ca6ca290d396910269f800a72710" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>ClearBuffer</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1acbdde8ff31afb6756430c1836761cc9f" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Contains</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0947787d33b03dd05ea378ecc450e44f" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>CopyTo</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a6327caf4789883bcfd697842f51b896e" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Count</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a062b751fbdc49b43ed2c55bb37fd1cf8" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>decrementCount</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aff2d1162726376a032fb9a534a049c9e" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>defaultCapacity</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a53687522b3603f342996777daecfe600" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Deque</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a51e556b3d7a65475d64f23c6d1245047" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Deque</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a7bd6f2bb4745470e1c327aa08eb330af" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Deque</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a8d369e7c0f11e5271ce97b2d7b6758d7" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>ensureCapacityFor</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1adb909bae9eac28a548b30cbc041c467f" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Get</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a404a8d0f107c7c92bac15106cc6d17e1" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>GetEnumerator</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a53a38e3173f2729f6a7b3b506397b545" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>GetEnumerator</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a10c102a39c9651ced67d74beb3ecda5e" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>incrementCount</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a1a757181e2a5980b40b04ad308c32f8a" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>IndexOf</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a0040f2c10cf74e050bd4b8e7d197ec51" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Insert</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a275b7951a82869b6f283b924b8d61a36" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>InsertRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a2fae5f3910ac37432a1a487e6bdf2d05" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>InsertRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a70bbaf601af1af6b1325450ba29d9ddf" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>IsEmpty</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a11c42446ea633dbcf79ef08300331bb7" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>IsFull</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b8afcf2baea1dd0cc59b1b33fbda55c" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>IsReadOnly</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5f21c824b26b0057a7c8766e01cc78c1" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>postShiftStartOffset</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad3839fab70c2acf17c277d9322e8232a" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>preShiftStartOffset</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1aed9f95d69dc746be6a78e51f6d9a12d6" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Remove</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a43a520a9816c7471ad717fe410c8b8d9" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>RemoveAt</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a875755cdbca8184a2449965b164aa4a8" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>RemoveBack</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ab742e93a18cff9c54ca93de0bf632eea" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>RemoveFront</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ab5f46e197f15d781776cca7aaf94ecc6" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>RemoveRange</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1adaf92ba1a427d0351173444d4d1d9463" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>Set</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1ad2d7a7c9d07ca86948c09028e096f5de" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>shiftStartOffset</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a462ee49d30cb5ae2965f65d31c41b01f" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>startOffset</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a459278b4ed9c2878269ecb05fb2fd4b0" prot="public" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>this[int index]</name></member>
+      <member refid="class_system_1_1_collections_1_1_generic_1_1_deque_1a5b127f4d3a631a6cb6ee9b1c1afb230e" prot="private" virt="non-virtual"><scope>System::Collections::Generic::Deque</scope><name>toBufferIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
