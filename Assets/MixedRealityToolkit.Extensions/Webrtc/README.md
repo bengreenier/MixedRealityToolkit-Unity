@@ -19,6 +19,8 @@ Cross-platform Webrtc support for Unity apps ☁🎲
   
 ## How to use
 
+To use this extension, you'll need to include some native dlls - you can download them yourself [from here](https://github.com/bengreenier/webrtc-unity-plugin/releases/tag/v01) - or build them [as described below](#building-native-plugins).
+
 ### Quickstart
 
 1. Add a `Webrtc` Component
@@ -48,3 +50,42 @@ differ from a more advanced signaling implementation.
 The reference API documentation can be used to better understand the available API of the given components.
 
 [Reference API](docs/annotated.html)
+
+### Building Native Plugins
+
+To build the native plugins, we'll leverage the [webrtc-uwp](https://github.com/webrtc-uwp) codebase for the webrtc `m71` release. This ensures support for `uwp`, as well as `win32`.
+
+<details>
+<summary> Windows build commands </summary>
+
+To build the code, we'll first need the webrtc-uwp-sdk repository, and it's prerequisites. We'll also need to apply our patch that enables support for il2cpp (until it is merged). The detailed instructions can be found [in the webrtc-uwp docs](https://github.com/webrtc-uwp/webrtc-uwp-sdk/tree/James/20190225-m71-docs), and the exact commands that worked at the time of writing can be found below.
+
+```
+git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk.git
+git checkout releases/m71
+git submodule update
+#
+# apply https://github.com/webrtc-uwp/webrtc/pull/11 on top of releases/m71
+#
+cd webrtc\xplatform\webrtc
+git remote add bengreenier git@github.com:bengreenier/webrtc.git
+git fetch bengreenier
+git merge 67bc888e66
+#
+# apply https://github.com/webrtc-uwp/webrtc-windows/pull/48 on top of releases/m71
+#
+cd ..\..\windows
+git remote add bengreenier git@github.com:bengreenier/webrtc-windows.git
+git fetch bengreenier
+git merge 7f1fdda64
+#
+# build (windows)
+#
+cd ..\..\
+set GYP_MSVS_VERSION=2017
+python scripts\run.py -a prepare build -u webrtc_unity_plugin -p win -x x64 -c release --clang
+```
+
+Note that to build for `winuwp` we use `WebRtc.Universal.sln` and visual studio, as documented [here](https://github.com/webrtc-uwp/webrtc-uwp-sdk/tree/James/20190225-m71-docs#building-the-sdk). Instead of building the `PeerConnectionClient.WebRtc` project, we instead build `Examples.UnityPlugin`.
+
+</details>
