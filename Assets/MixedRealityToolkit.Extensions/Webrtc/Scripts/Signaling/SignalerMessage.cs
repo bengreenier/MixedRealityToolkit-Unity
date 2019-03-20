@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
 {
@@ -9,7 +10,7 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
     /// Note: the same data is used for transmitting and receiving
     /// </remarks>
     [Serializable]
-    public class SignalerMessage
+    public class SignalerMessage : ISerializationCallbackReceiver 
     {
         /// <summary>
         /// Possible message types as-serialized on the wire
@@ -42,7 +43,15 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         /// <summary>
         /// The message type
         /// </summary>
+        [NonSerialized]
         public WireMessageType MessageType;
+
+        /// <summary>
+        /// Unity serialization field for <see cref="MessageType"/>
+        /// </summary>
+        [SerializeField]
+        [HideInInspector]
+        private string Type;
 
         /// <summary>
         /// The primary message contents
@@ -50,28 +59,27 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         public string Data;
 
         /// <summary>
-        /// The secondary message contents (representing developer defined data)
+        /// The data separator needed for proper ICE serialization
         /// </summary>
-        public object UserData;
+        public string IceDataSeparator;
 
         /// <summary>
-        /// Access the user data as it's expected type
+        /// The target id to which we send messages
         /// </summary>
-        /// <typeparam name="TData">expected data type</typeparam>
-        /// <returns>data</returns>
-        public TData GetUserData<TData>() where TData : class
+        /// <remarks>
+        /// This is expected to be set when <see cref="ISignaler.SendMessageAsync(SignalerMessage)"/> is called
+        /// </remarks>
+        [NonSerialized]
+        public string TargetId;
+
+        public void OnBeforeSerialize()
         {
-            return UserData as TData;
+            Type = MessageType.ToString();
         }
 
-        /// <summary>
-        /// Set the user data as it's expected type
-        /// </summary>
-        /// <typeparam name="TData">expected data type</typeparam>
-        /// <param name="userData">data</param>
-        public void SetUserData<TData>(TData userData) where TData : class
+        public void OnAfterDeserialize()
         {
-            this.UserData = userData;
+            MessageType = (WireMessageType)Enum.Parse(typeof(WireMessageType), Type);
         }
     }
 }

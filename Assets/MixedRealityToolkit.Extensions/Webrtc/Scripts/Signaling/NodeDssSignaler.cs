@@ -57,8 +57,7 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         /// <param name="message">message to send</param>
         public void SendMessageAsync(SignalerMessage message)
         {
-            var userData = message.GetUserData<BaseUserData>();
-            var targetId = userData.TargetId;
+            var targetId = message.TargetId;
 
             StartCoroutine(PostToServer(message, targetId));
         }
@@ -121,6 +120,8 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         {
             var www = UnityWebRequest.Get(HttpServerAddress + "data/" + SystemInfo.deviceUniqueIdentifier);
             yield return www.SendWebRequest();
+
+            lastGetComplete = true;
 
             if (www.isNetworkError || www.isHttpError)
             {

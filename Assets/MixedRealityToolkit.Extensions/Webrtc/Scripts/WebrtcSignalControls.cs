@@ -106,10 +106,7 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc
                 {
                     MessageType = SignalerMessage.WireMessageType.Offer,
                     Data = offer,
-                    UserData = new BaseUserData()
-                    {
-                        TargetId = TargetIdField.text
-                    }
+                    TargetId = TargetIdField.text
                 });
             });
 
@@ -120,10 +117,7 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc
                 {
                     MessageType = SignalerMessage.WireMessageType.Answer,
                     Data = answer,
-                    UserData = new BaseUserData()
-                    {
-                        TargetId = TargetIdField.text
-                    }
+                    TargetId = TargetIdField.text
                 });
             });
 
@@ -134,11 +128,8 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc
                 {
                     MessageType = SignalerMessage.WireMessageType.Ice,
                     Data = candidate + "|" + sdpMlineindex + "|" + sdpMid,
-                    UserData = new BaseUserData()
-                    {
-                        IceDataSeparator = "|",
-                        TargetId = TargetIdField.text
-                    }
+                    IceDataSeparator = "|",
+                    TargetId = TargetIdField.text
                 });
             });
 
@@ -157,9 +148,8 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc
                         PeerEventsInstance.SetRemoteDescription("answer", msg.Data);
                         break;
                     case SignalerMessage.WireMessageType.Ice:
-                        var userData = msg.GetUserData<BaseUserData>();
                         // this "parts" protocol is defined above, in PeerEventsInstance.OnIceCandiateReadyToSend listener
-                        var parts = msg.Data.Split(new string[] { userData.IceDataSeparator }, StringSplitOptions.RemoveEmptyEntries);
+                        var parts = msg.Data.Split(new string[] { msg.IceDataSeparator }, StringSplitOptions.RemoveEmptyEntries);
                         PeerEventsInstance.AddIceCandidate(parts[0], int.Parse(parts[1]), parts[2]);
                         break;
                     case SignalerMessage.WireMessageType.SetPeer:
