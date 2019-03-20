@@ -38,7 +38,7 @@ connection. This scene uses a simple signaling protocol, as defined by [node-dss
 differ from a more advanced signaling implementation.
 
 1. Clone, setup, and run an instance of [node-dss](https://github.com/bengreenier/node-dss) (instructions at link).
-2. Modify the `WebrtcSignalControls` script inside the prefab (on the `WebrtcSignalControls` object) such that `Http Server Address` points at your server
+2. Modify the `NodeDssSignaler` script inside the prefab (on the `WebrtcSignalControls` object) such that `Http Server Address` points at your server
 3. Run the sample, noting the `deviceId` the appears in the top left of the client. This is your client's id. Let's refer to this as `Client A Id`.
 4. On another device, run the sample as well, again noting the `deviceId`. Let's refer to this as `Client B Id`.
 5. On the first client, enter the `Client B Id` into the `targetId` input field. On the second client, enter the `Client A Id`. This is how we inform each client of the other client's existence.
