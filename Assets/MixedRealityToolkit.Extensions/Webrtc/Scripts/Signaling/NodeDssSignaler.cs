@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -57,9 +58,7 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         /// <param name="message">message to send</param>
         public void SendMessageAsync(SignalerMessage message)
         {
-            var targetId = message.TargetId;
-
-            StartCoroutine(PostToServer(message, targetId));
+            StartCoroutine(PostToServer(message));
         }
 
         /// <summary>
@@ -96,11 +95,10 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
         /// Internal helper for sending http data to the dss server using POST
         /// </summary>
         /// <param name="msg">the message to send</param>
-        /// <param name="targetId">the target to send to</param>
-        private IEnumerator PostToServer(SignalerMessage msg, string targetId)
+        private IEnumerator PostToServer(SignalerMessage msg)
         {
             var data = Encoding.UTF8.GetBytes(JsonUtility.ToJson(msg));
-            var www = new UnityWebRequest(HttpServerAddress + "data/" + targetId, UnityWebRequest.kHttpVerbPOST);
+            var www = new UnityWebRequest(HttpServerAddress + "data/" + msg.TargetId, UnityWebRequest.kHttpVerbPOST);
             www.uploadHandler = new UploadHandlerRaw(data);
 
             yield return www.SendWebRequest();
@@ -125,7 +123,10 @@ namespace Microsoft.MixedReality.Toolkit.Extensions.Webrtc.Signaling
 
             if (www.isNetworkError || www.isHttpError)
             {
-                OnFailure?.Invoke(new Exception("Failure receiving message: " + www.error));
+                if (www.responseCode != 404)
+                {
+                    OnFailure?.Invoke(new Exception("Failure receiving message: " + www.error));
+                }
             }
             else
             {

@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HttpServerAddress: http://localhost:3000/
-  PollTimeMs: 5
+  PollTimeMs: 0.2
 --- !u!1 &1913511510491336
 GameObject:
   m_ObjectHideFlags: 0
