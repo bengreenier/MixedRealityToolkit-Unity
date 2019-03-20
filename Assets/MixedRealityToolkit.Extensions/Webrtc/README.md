@@ -45,12 +45,6 @@ differ from a more advanced signaling implementation.
 6. On either client, click the `offerButton`.
 7. Session establishment data should be sent between the two clients, using the signaling server as a message broker. Shortly (less than 30s) audio and video should begin to be transmitted.
 
-### Reference API
-
-The reference API documentation can be used to better understand the available API of the given components.
-
-[Reference API](docs/annotated.html)
-
 ### Building Native Plugins
 
 To build the native plugins, we'll leverage the [webrtc-uwp](https://github.com/webrtc-uwp) codebase for the webrtc `m71` release. This ensures support for `uwp`, as well as `win32`.
@@ -79,13 +73,13 @@ git remote add bengreenier git@github.com:bengreenier/webrtc-windows.git
 git fetch bengreenier
 git merge 7f1fdda64
 #
-# build (windows)
+# build (win32)
 #
 cd ..\..\
 set GYP_MSVS_VERSION=2017
 python scripts\run.py -a prepare build -u webrtc_unity_plugin -p win -x x64 -c release --clang
 ```
 
-Note that to build for `winuwp` we use `WebRtc.Universal.sln` and visual studio, as documented [here](https://github.com/webrtc-uwp/webrtc-uwp-sdk/tree/James/20190225-m71-docs#building-the-sdk). Instead of building the `PeerConnectionClient.WebRtc` project, we instead build `Examples.UnityPlugin`.
+Note that to build for `winuwp` we use `WebRtc.Universal.sln` and Visual Studio, as documented [here](https://github.com/webrtc-uwp/webrtc-uwp-sdk/tree/James/20190225-m71-docs#building-the-sdk). Instead of building the `PeerConnectionClient.WebRtc` project, we build `Examples.UnityPlugin`.
 
 </details>
